@@ -109,6 +109,16 @@
             }
           },
           {
+            "id": "4c120e28dec6dd02",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
             "id": "4a688e8ccab6e71e",
             "type": "leaf",
             "state": {
@@ -151,23 +161,14 @@
               "icon": "lucide-list",
               "title": "Outline of prova"
             }
-          },
-          {
-            "id": "4c120e28dec6dd02",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
