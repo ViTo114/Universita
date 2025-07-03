@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "03db6c7cd23c2ce2",
@@ -179,7 +180,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4c120e28dec6dd02",
+  "active": "cc0cd10572432dab",
   "lastOpenFiles": [
     "Primo anno/prova.md",
     "README.md",
