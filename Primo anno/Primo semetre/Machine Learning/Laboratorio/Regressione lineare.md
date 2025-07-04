@@ -95,3 +95,5 @@ Successivamente andiamo a definire il ciclo for che rappresenta l'algoritmo di d
 E possibile modificare questo ciclo for per sfruttare anche la regolarizzazione:
 ![[Pasted image 20250704163716.png]]
 
+
+Al termine di entrambe queste due funzioni adiamo a ritornare
