@@ -90,3 +90,5 @@ In questa nuova funzione andiamo a definire tre nove variabili:
 
 
 Successivamente andiamo a definire il ciclo for che rappresenta l'algoritmo di discesa del gradiente:
+![[Pasted image 20250704163013.png]]
+
