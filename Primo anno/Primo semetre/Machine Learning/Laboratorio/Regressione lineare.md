@@ -100,9 +100,7 @@ E possibile modificare questo ciclo for per sfruttare anche la regolarizzazione:
 Al termine di entrambe queste due funzioni adiamo a ritornare sia la variabile cost_history che la variabile theta_history
 
 
-Se Invece della full batch, volessi usare la stochastic gradiente descent, dovrei modificare il ciclo  for nel seguente modo:
-![[Pasted image 20250704164310.png]]
-
+Se Invece della full batch, volessi usare la stochastic gradiente descent, dovrei modificare 
 
 ### DEFINIZIONE DELLE FUNZIONE UTILE PER FARE LA PREDIZIONE
 
