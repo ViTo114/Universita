@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "03db6c7cd23c2ce2",
@@ -183,16 +182,16 @@
   },
   "active": "a91c3eae3c833462",
   "lastOpenFiles": [
+    "Pasted image 20250704164507.png",
+    "Primo anno/Primo semetre/Machine Learning/Laboratorio/Regressione lineare.md",
+    "Pasted image 20250704164310.png",
+    "Pasted image 20250704163716.png",
+    "Pasted image 20250704163013.png",
     "Primo anno/Primo semetre/Machine Learning/Esercitazione laboratorio/LinearRegression.py~",
     "Primo anno/Primo semetre/Machine Learning/Esercitazione laboratorio/main.py~",
     "Primo anno/Primo semetre/Machine Learning/Esercitazione laboratorio/LinearRegression.py",
     "Primo anno/Primo semetre/Machine Learning/Esercitazione laboratorio/main.py",
     "Primo anno/Primo semetre/Machine Learning/Esercitazione laboratorio",
-    "Pasted image 20250704164507.png",
-    "Pasted image 20250704164310.png",
-    "Pasted image 20250704163716.png",
-    "Pasted image 20250704163013.png",
-    "Primo anno/Primo semetre/Machine Learning/Laboratorio/Regressione lineare.md",
     "Primo anno/Primo semetre/Machine Learning/Laboratorio",
     "Untitled.md",
     "Primo anno/Primo semetre/Machine Learning",
@@ -200,7 +199,6 @@
     "README.md",
     "Secondo anno/Secondo semestre",
     "Secondo anno/Primo semestre",
-    "Primo anno/Secondo semestre",
-    "Primo anno/Primo semetre"
+    "Primo anno/Secondo semestre"
   ]
 }
