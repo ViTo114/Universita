@@ -9,7 +9,10 @@ class LinearRegression:
         self.numeroIterate = numeroIterate
         self.numeroFeature = numeroFeature
 
+        #Questa istruzione mi creare un vettore numpy di numeroFeature elementi tutti con il valore lmd
         self.lmd_ = np.full(numeroFeature, lmd)
         self.lmd_[0]=0
+
+
 
         
