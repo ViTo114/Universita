@@ -35,5 +35,14 @@ class LinearRegression:
         for epoca in range(0, self.numeroIterate):
             predizioni = np.dot(X_training, self.theta)
 
+            errori = Y_training - predizioni
+
+            #La formula del graidente è pari a X^T(errori)
+            gradiente = 1/m * np.dot(X_training.T, errori)
+
+            #Aggiornamento dei pesi e di thethaHistory
+            
+
+
 
 
