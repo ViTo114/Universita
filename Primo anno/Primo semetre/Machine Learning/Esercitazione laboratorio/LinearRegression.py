@@ -32,4 +32,7 @@ class LinearRegression:
         #Questa variabile mi definisce il nuemero di istanze di addestarmento
         m = len (X_training)
 
+        for epoca in self.numeroIterate:
+
+
 
