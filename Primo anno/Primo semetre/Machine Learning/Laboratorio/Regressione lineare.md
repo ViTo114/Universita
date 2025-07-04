@@ -1,4 +1,6 @@
-# REGRESSIONE LINEARE SEMPLICE
+# REGRESSIONE LINEARE 
+
+
 
 In questo esempio utilizzeremo una dataset con due variabili di in input (_Size_ e _Badrooms_) e una sola variabile target (_price_)
 
