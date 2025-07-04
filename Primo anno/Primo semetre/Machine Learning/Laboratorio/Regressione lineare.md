@@ -24,7 +24,7 @@ Successivamente normalizziamo i dati tramite la _z-score normalizzation_:
 _NOTA_: il paramento _axis_ specifica lungo quale colonna eseguire la media. Quindi per _axis=0_ si intende l'asse verticale (e quindi calcola la media per ogni colonna), per _axis=0_ si intende l'asse verticale e calcola la media per ogni riga
 
 
-Successivamente andiamo a dividere il dataset in due varibili:
+Successivamente andiamo a dividere il dataset in due variabili:
 `x = houses[:,0]`
 `y = house[:, 1]`
 
@@ -34,4 +34,7 @@ Successivamente andiamo a aggiungere un colonna di soli 1, per definire un valor
 
 
 
-Infine andiamo a sfruttare una classe definita da noi prece
+Infine andiamo a sfruttare una classe definita da noi precedentemente (vedremo dopo come è fatta questa classe) per addestrare il modello di regressione lineare:
+`linear = LinearRegression(n_features=x.shape[1], n_steps=1000, learning_rate=0.01)`
+
+
