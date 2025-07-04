@@ -45,11 +45,11 @@ Infine andiamo a sfruttare una classe definita da noi precedentemente (vedremo d
 Per la definizione della nostra classe come prima cosa andiamo ad importare le libreria che ci saranno utili:
 `import numpy as np`
 
-
+### DEFINIZIONE DELLA CLASSE
 Successivamente iniziamo a definire la classe con la seguente sintassi:
 `class LinearRegression:`
 
-
+### DEFINIZIONE DEL COSTRUTTORE
 All'interno di questa classe (quindi andando a capo e scrivendo con un tab verso destra) andiamo a definire il costruttore del nostro oggetto (in questo caso della funzione lineare):
 `def __init__(self, learning_rate=1e-2, n_steps=200, n_features=1, lmd=0.01, seed=123):
 
