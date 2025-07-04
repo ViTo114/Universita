@@ -1,7 +1,7 @@
 # REGRESSIONE LINEARE 
 
 
-
+## DEFINIZIONE DEL FILE MAIN
 In questo esempio utilizzeremo una dataset con due variabili di in input (_Size_ e _Badrooms_) e una sola variabile target (_price_)
 
 
@@ -35,8 +35,9 @@ Successivamente andiamo a aggiungere un colonna di soli 1, per definire un valor
 `x = np.c_[np.ones(x.shape[0]), x ]`
 
 
-
 Infine andiamo a sfruttare una classe definita da noi precedentemente (vedremo dopo come è fatta questa classe) per addestrare il modello di regressione lineare:
 `linear = LinearRegression(n_features=x.shape[1], n_steps=1000, learning_rate=0.01)`
 
 
+
+## DEFINIZIONE DELLA CLASSE LINEARE REGRESSION
