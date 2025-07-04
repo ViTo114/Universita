@@ -58,7 +58,7 @@ All'interno di questa classe (quindi andando a capo e scrivendo con un tab verso
 
 Andiamo a definire le variabili che compongono questo oggetto:
 `self.seed = seed
-`p.random.seed(self.seed)`
+`np.random.seed(self.seed)`
 
 `self.learning_rate = learning_rate`
 `self.n_steps = n_steps`
