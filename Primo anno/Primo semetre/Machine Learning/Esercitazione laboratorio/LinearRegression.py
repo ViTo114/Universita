@@ -40,11 +40,14 @@ class LinearRegression:
             #La formula del graidente è pari a X^T(errori)
             gradiente = 1/m * np.dot(X_training.T, errori)
 
-            #Aggiornamento dei pesi e di thethaHistory
+            #Aggiornamento dei pesi
             self.theta = self.theta - self.learningRate * gradiente
-            thetaHistory[epoca] = self.theta
 
-            
+            #Aggiornamento della cronologia
+            thetaHistory[epoca] = self.theta
+            costFunctionHistory[epoca] = 1/(2*m) * np
+
+
 
 
 
