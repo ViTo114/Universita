@@ -41,6 +41,9 @@ class LinearRegression:
             gradiente = 1/m * np.dot(X_training.T, errori)
 
             #Aggiornamento dei pesi e di thethaHistory
+            self.theta = self.theta - self.learningRate * gradiente
+            thetaHistory[epoca] = self.theta
+
             
 
 
