@@ -92,4 +92,6 @@ In questa nuova funzione andiamo a definire tre nove variabili:
 Successivamente andiamo a definire il ciclo for che rappresenta l'algoritmo di discesa del gradiente:
 ![[Pasted image 20250704163013.png]]
 
-E possibile modificare questo ciclo for per sfruttare anche la normalizzazione:
+E possibile modificare questo ciclo for per sfruttare anche la regolarizzazione:
+![[Pasted image 20250704163716.png]]
+
