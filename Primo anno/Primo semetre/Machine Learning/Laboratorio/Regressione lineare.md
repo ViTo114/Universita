@@ -7,17 +7,20 @@ Il primo step è quello di importare le librerie che si sono utili:
 `import pandas as pd`
 
 Come prima cosa carichiamo il nostro dataset in una variabile sfruttando la libreria pandas. In particolare useremo:
-`house = pd.read_csv("percorso_del_file)`
+`houses = pd.read_csv("percorso_del_file)`
 
 Successivamente normalizziamo i dati tramite la _z-score normalizzation_:
-`mean = house.mean(axis=0)`
-`std = house.std(axis=0)`
-`house = (house - mean)/std    #Questo è il calcolo della noralizzazione dei dati`
+`mean = houses.mean(axis=0)`
+`std = houses.std(axis=0)`
+`houses = (house - mean)/std    #Questo è il calcolo della noralizzazione dei dati`
 
 _NOTA_: il paramento _axis_ specifica lungo quale colonna eseguire la media. Quindi per _axis=0_ si intende l'asse verticale (e quindi calcola la media per ogni colonna), per _axis=0_ si intende l'asse verticale e calcola la media per ogni riga
 
 
-Successivamente andiamo a dividere il dataset in due varibile i
+Successivamente andiamo a dividere il dataset in due varibili:
+`x = houses[:,0]`
+`y = house[`
+
 
 
 
