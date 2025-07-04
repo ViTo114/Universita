@@ -7,4 +7,4 @@ Il primo step è quello di importare le librerie che si sono utili:
 `import pandas as pd`
 
 Come prima cosa carichiamo il nostro dataset in una variabile sfruttando la libreria pandas. In particolare useremo:
-`house = pd.read_csv (`
+`house = pd.read_csv("percorso_del_file)`
