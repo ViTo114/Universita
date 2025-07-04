@@ -85,7 +85,8 @@ In questa nuova funzione andiamo a definire tre nove variabili:
 `#Memorizza il valore dei paramenti ad ogni iterata`
 `theta_history= np.zeros((self.n_steps, self.theta.shape[0]))
 
-`#`
+`#Definisce il numero di esempi di training`
+`m=len(X_train)`
 
 
 Successivamente andiamo a definire il ciclo for che rappresenta l'algoritmo di discesa del gradiente:
