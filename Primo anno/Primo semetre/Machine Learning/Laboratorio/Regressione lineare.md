@@ -97,4 +97,7 @@ E possibile modificare questo ciclo for per sfruttare anche la regolarizzazione:
 ![[Pasted image 20250704163716.png]]
 
 
-Al termine di entrambe queste due funzioni adiamo a ritornare sia la variabile _cost_history_ che la variabile _
+Al termine di entrambe queste due funzioni adiamo a ritornare sia la variabile cost_history che la variabile theta_history
+
+
+Se Invece della full batch, volessi usare la stochastic gradiente descent
