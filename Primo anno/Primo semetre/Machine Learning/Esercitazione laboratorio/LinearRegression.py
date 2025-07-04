@@ -9,4 +9,5 @@ class LinearRegression:
         self.numeroIterate = numeroIterate
         self.numeroFeature = numeroFeature
 
-        self.lmd_ = np.
+        self.lmd_ = np.full(numeroFeature, lmd)
+        lmd_[0] = 0
