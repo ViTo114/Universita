@@ -86,3 +86,4 @@ In questa nuova funzione andiamo a definire due nove variabili:
 `theta_history= np.zeros((self.n_steps, self.theta.shape[0]))  #
 
 
+Successivamente andiamo a definire il ciclo for che rappresenta l'algoritmo di discesa del gradiente:
