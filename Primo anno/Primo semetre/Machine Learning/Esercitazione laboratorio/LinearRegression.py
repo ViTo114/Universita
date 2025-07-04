@@ -56,7 +56,13 @@ class LinearRegression:
         m = len(X_train)
 
         for epoca in range(0, self.numeroIterate):
-            
+            predizioni = np.dot(X_train, self.theta)
+
+            errori = Y_train - predizioni
+
+            gradiente = np.dot(X.T, errori)
+
+            gradiente_reg = (self.lmd/m) * 
 
 
 
