@@ -51,7 +51,7 @@ Successivamente iniziamo a definire la classe con la seguente sintassi:
 
 
 All'interno di questa classe (quindi andando a capo e scrivendo con un tab verso destra) andiamo a definire il costruttore del nostro oggetto (in questo caso della funzione lineare):
-`def __init__(elf, learning_rate=1e-2, n_steps=200, n_features=1, lmd=0.01, seed=123):
+`def __init__(self, learning_rate=1e-2, n_steps=200, n_features=1, lmd=0.01, seed=123):
 
 ==_NOTA_: il parametro _lmd_ indica il valore del parametro di regolarizzazione usato nella tecnica di regularizzation==
 
@@ -72,4 +72,5 @@ Andiamo a definire le variabili che compongono questo oggetto:
 ==_NOTA_: Nelle due ultime righe andiamo a definire una nuova variabile "lmd_"
 
 
-Con queste righe di codice appena mostrate termi
+Con queste righe di codice appena mostrate terminiamo la definizione del costruttore della nostra classe. Ora dobbiamo definire il metodo che ci permette di addestrare il modello:
+`def fit `
