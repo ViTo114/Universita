@@ -73,4 +73,5 @@ Andiamo a definire le variabili che compongono questo oggetto:
 
 
 Con queste righe di codice appena mostrate terminiamo la definizione del costruttore della nostra classe. Ora dobbiamo definire il metodo che ci permette di addestrare il modello:
-`def fit `
+`def fit(self, X, y, X_val, y_val)
+
