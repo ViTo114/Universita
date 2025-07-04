@@ -41,3 +41,8 @@ Infine andiamo a sfruttare una classe definita da noi precedentemente (vedremo d
 
 
 ## DEFINIZIONE DELLA CLASSE LINEARE REGRESSION
+Per la definizione della nostra classe come prima cosa andiamo ad importare le libreria che ci saranno utili:
+`import numpy as np`
+
+
+Succe
