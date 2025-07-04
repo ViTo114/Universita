@@ -13,10 +13,10 @@ class LinearRegression:
 
         #Queste istruzione mi imposta il seed per tutte le operazione casuali
         self.seed = seed
-        np.ramdom.seed(self.seed)
+        np.random.seed(self.seed)
 
-        #Questa istruzione mi definice il vettore dei pesi
-        self.theta=np.rando.rand()
+        #Questa istruzione mi definice il vettore dei pesi. In particolare mi restituisce un vettore di pesi casuali
+        self.theta=np.random.rand(numeroFeature)
 
         #Queste istruzione mi creare un vettore numpy di numeroFeature elementi tutti con il valore lmd
         self.lmd_ = np.full(numeroFeature, lmd)
@@ -26,6 +26,6 @@ class LinearRegression:
 
 
     def fbgd_fit(self, X_training, Y_training):
-
+        theta_history = np(self.numeroFeature)
 
 
