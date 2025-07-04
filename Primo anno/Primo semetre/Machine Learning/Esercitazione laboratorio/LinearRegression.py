@@ -32,7 +32,8 @@ class LinearRegression:
         #Questa variabile mi definisce il nuemero di istanze di addestarmento
         m = len (X_training)
 
-        for epoca in range(0, self.numeroIterate)
+        for epoca in range(0, self.numeroIterate):
+            predizioni = np.dot(X_training, self.theta)
 
 
 
