@@ -34,5 +34,4 @@ Successivamente andiamo a aggiungere un colonna di soli 1, per definire un valor
 
 
 
-
-
+Infine andiamo a sfruttare una classe definita da noi prece
