@@ -57,3 +57,5 @@ Andiamo a definire le variabili che compongono questo oggetto:
 `self.seed = seed
 `p.random.seed(self.seed)`
 
+
+
