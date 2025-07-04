@@ -14,4 +14,4 @@ Successivamente normalizziamo i dati tramite la _z-score normalizzation_:
 `std = house.std(axis=0)`
 `house = (house - mean)/std    #Questo è il calcolo della noralizzazione dei dati`
 
-_NOTA_: il paramento 
+_NOTA_: il paramento _axis_ specifica lungo quale colonna eseguire la media. Quindi per _axis=0_ si intende l'asse verticale (e quindi calcola la media per ogni colonna), per _axis=0_ si intende l'ass
