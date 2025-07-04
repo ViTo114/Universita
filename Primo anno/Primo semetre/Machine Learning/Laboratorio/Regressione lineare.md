@@ -72,6 +72,7 @@ Andiamo a definire le variabili che compongono questo oggetto:
 ==_NOTA_: Nelle due ultime righe andiamo a definire una nuova variabile "lmd_"
 
 
+### DEFINIZIONE DELLE FUNZIONI DI ADDESTRAMENTO
 Con queste righe di codice appena mostrate terminiamo la definizione del costruttore della nostra classe. Ora dobbiamo definire il metodo che ci permette di addestrare il modello:
 `def fit_fbgd(self, X_train, y_train):`
 
@@ -96,4 +97,4 @@ E possibile modificare questo ciclo for per sfruttare anche la regolarizzazione:
 ![[Pasted image 20250704163716.png]]
 
 
-Al termine di entrambe queste due funzioni adiamo a ritornare
+Al termine di entrambe queste due funzioni adiamo a ritornare sia la variabile _cost_history_ che la variabile _
