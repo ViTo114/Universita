@@ -107,3 +107,4 @@ Se Invece della full batch, volessi usare la stochastic gradiente descent, dovre
 ### DEFINIZIONE DELLE FUNZIONE UTILE PER FARE LA PREDIZIONE
 
 Per fare le predizione andiamo semplicemente a definire questa funzione:
+![[Pasted image 20250704164507.png]]
