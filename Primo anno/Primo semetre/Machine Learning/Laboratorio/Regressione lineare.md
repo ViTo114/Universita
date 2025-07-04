@@ -79,6 +79,10 @@ Con queste righe di codice appena mostrate terminiamo la definizione del costrut
 
 
 In questa nuova funzione andiamo a definire due nove variabili:
-`cost_history = np.zeros(self.n_steps)  #Memorizza la funzione di costo per ogni                                            iterata`
+`#Memorizza il valore della funzione di costo in ogni iterata`
+`cost_history = np.zeros(self.n_steps)  
 
+`#Memorizza il valore dei paramenti ad ogni iterata`
 `theta_history= np.zeros((self.n_steps, self.theta.shape[0]))  #
+
+
