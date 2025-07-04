@@ -103,3 +103,7 @@ Al termine di entrambe queste due funzioni adiamo a ritornare sia la variabile c
 Se Invece della full batch, volessi usare la stochastic gradiente descent, dovrei modificare il ciclo  for nel seguente modo:
 ![[Pasted image 20250704164310.png]]
 
+
+### DEFINIZIONE DELLE FUNZIONE UTILE PER FARE LA PREDIZIONE
+
+Per fare le predizione andiamo semplicemente a definire questa funzione:
