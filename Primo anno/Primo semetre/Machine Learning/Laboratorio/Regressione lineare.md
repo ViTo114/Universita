@@ -78,4 +78,5 @@ Con queste righe di codice appena mostrate terminiamo la definizione del costrut
 ==_NOTA_: Questa funziona definisce l'addestramento del modello basato dul full batch gradiente descent==
 
 
-
+In questa nuova funzione andiamo a definire due nove variabili:
+`cost_history = np.zeros(self.n_steps)  #`
