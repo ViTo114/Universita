@@ -64,3 +64,4 @@ Andiamo a definire le variabili che compongono questo oggetto:
 `self.theta = np.random.rand(n_features)`
 `self.lmd = lmd`
 
+`self.lmd_ = np.zeros(n_features)   #Questo comando creare un vettore o`
