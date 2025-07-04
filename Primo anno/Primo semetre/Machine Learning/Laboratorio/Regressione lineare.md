@@ -9,6 +9,10 @@ Il primo step è quello di importare le librerie che si sono utili:
 Come prima cosa carichiamo il nostro dataset in una variabile sfruttando la libreria pandas. In particolare useremo:
 `houses = pd.read_csv("percorso_del_file)`
 
+Andiamo a mischiare le istanze (non ho ancora capito per quale motivo):
+`houses = houses.sample(frac=1, random_state=123).reset_index(drop=True)`
+
+
 Successivamente normalizziamo i dati tramite la _z-score normalizzation_:
 `mean = houses.mean(axis=0)`
 `std = houses.std(axis=0)`
