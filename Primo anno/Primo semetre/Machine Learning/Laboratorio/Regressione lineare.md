@@ -49,4 +49,5 @@ Successivamente iniziamo a definire la classe con la seguente sintassi:
 `class LinearRegression:`
 
 
-All'interno di questa classe (quindi andando a capo e sc)
+All'interno di questa classe (quindi andando a capo e scrivendo con un tab verso destra) andiamo a definire il costruttore del nostro oggetto (in questo caso della funzione lineare):
+`def __init__(self, learningRate`
