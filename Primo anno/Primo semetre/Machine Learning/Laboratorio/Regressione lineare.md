@@ -11,4 +11,6 @@ Come prima cosa carichiamo il nostro dataset in una variabile sfruttando la libr
 
 Successivamente normalizziamo i dati tramite la _z-score normalizzation_:
 `mean = house.mean(axis=0)`
-``
+`std = house.std(axis=0)`
+`house = (house - mean)/std    #Questo è il calcolo della noralizzazione dei dati`
+
