@@ -8,3 +8,7 @@ Il primo step è quello di importare le librerie che si sono utili:
 
 Come prima cosa carichiamo il nostro dataset in una variabile sfruttando la libreria pandas. In particolare useremo:
 `house = pd.read_csv("percorso_del_file)`
+
+Successivamente normalizziamo i dati tramite la _z-score normalizzation_:
+`mean = house.mean(axis=0)`
+``
