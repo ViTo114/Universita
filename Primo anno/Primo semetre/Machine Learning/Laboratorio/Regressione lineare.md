@@ -16,5 +16,10 @@ Successivamente normalizziamo i dati tramite la _z-score normalizzation_:
 
 _NOTA_: il paramento _axis_ specifica lungo quale colonna eseguire la media. Quindi per _axis=0_ si intende l'asse verticale (e quindi calcola la media per ogni colonna), per _axis=0_ si intende l'asse verticale e calcola la media per ogni riga
 
-Il prossimo step è quello di aggiungere un colonna, che contiene in tutte le righe il valore 1
+
+Successivamente andiamo a dividere il dataset in due varibile i
+
+
+
+Il prossimo step è quello di aggiungere un colonna, che contiene in tutte le righe il valore 1, per associare un valore a bias
 
