@@ -19,7 +19,9 @@ _NOTA_: il paramento _axis_ specifica lungo quale colonna eseguire la media. Qui
 
 Successivamente andiamo a dividere il dataset in due varibili:
 `x = houses[:,0]`
-`y = house[`
+`y = house[:, 1]`
+
+
 
 
 
