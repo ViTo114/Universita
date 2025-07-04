@@ -57,5 +57,8 @@ Andiamo a definire le variabili che compongono questo oggetto:
 `self.seed = seed
 `p.random.seed(self.seed)`
 
-
+`self.learning_rate = learning_rate`
+`self.n_steps = n_steps`
+`self.theta = np.random.rand(n_features)`
+``
 
