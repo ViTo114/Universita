@@ -14,3 +14,4 @@ Successivamente normalizziamo i dati tramite la _z-score normalizzation_:
 `std = house.std(axis=0)`
 `house = (house - mean)/std    #Questo è il calcolo della noralizzazione dei dati`
 
+_NOTA_:
