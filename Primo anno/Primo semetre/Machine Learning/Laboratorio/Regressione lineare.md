@@ -45,4 +45,8 @@ Per la definizione della nostra classe come prima cosa andiamo ad importare le l
 `import numpy as np`
 
 
-Succe
+Successivamente iniziamo a definire la classe con la seguente sintassi:
+`class LinearRegression:`
+
+
+All'interno di questa classe (quindi andando a capo e sc)
