@@ -1,6 +1,12 @@
-
+import numpy as np
 
 
 class LinearRegression:
 
-    def __init__(self, learningRate=1, lmd=1, numeroIterate=200, ):
+    def __init__(self, learningRate=1, lmd=1, numeroIterate=200, numeroFeature=5):
+        self.learningRate = learningRate
+        self.lmd = lmd
+        self.numeroIterate = numeroIterate
+        self.numeroFeature = numeroFeature
+
+        self.lmd_ = 
