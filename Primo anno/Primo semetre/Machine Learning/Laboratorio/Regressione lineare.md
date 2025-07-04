@@ -66,4 +66,5 @@ Andiamo a definire le variabili che compongono questo oggetto:
 
 `#Creaiamo un vettore di n_feature, dove ogni campo ha il valore lmd`
 `self.lmd_ = np.full(n_features, lmd)`
-`self.lmd = lmd_[0]=0`
+`self.lmd_ = lmd_[0]=0`
+
