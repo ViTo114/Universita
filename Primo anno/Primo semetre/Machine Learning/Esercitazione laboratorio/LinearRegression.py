@@ -26,6 +26,10 @@ class LinearRegression:
 
 
     def fbgd_fit(self, X_training, Y_training):
-        theta_history = np(self.numeroFeature)
+        thetaHistory = np.zeros(self.numeroIterate)
+        costFunctionHistory = np.zerso(self.numeroIterate)
+
+        #Questa variabile mi definisce il nuemero di istanze di addestarmento
+        m = len (X_training)
 
 
