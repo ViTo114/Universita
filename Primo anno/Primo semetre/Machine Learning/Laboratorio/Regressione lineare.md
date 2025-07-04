@@ -68,3 +68,4 @@ Andiamo a definire le variabili che compongono questo oggetto:
 `self.lmd_ = np.full(n_features, lmd)`
 `self.lmd_ = lmd_[0]=0`
 
+_NOTA_: Nelle due ultime righe andiamo a definire una nuova variabile "lmd_"
