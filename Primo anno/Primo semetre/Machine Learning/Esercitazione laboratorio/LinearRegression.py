@@ -45,7 +45,18 @@ class LinearRegression:
 
             #Aggiornamento della cronologia
             thetaHistory[epoca] = self.theta
-            costFunctionHistory[epoca] = 1/(2*m) * np
+            costFunctionHistory[epoca] = 1/(2*m) * np.dot(errori.T, errori)
+
+
+
+    def fbgd_reg_fit(self, X_train, Y_train):
+        thetaHistory = np.zeros(self.numeroIterate)
+        costFunctionHistory = np.zeros(self.numeroIterate)
+
+        m = len(X_train)
+
+        for epoca in range(0, self.numeroIterate):
+            
 
 
 
