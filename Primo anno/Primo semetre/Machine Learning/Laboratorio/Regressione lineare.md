@@ -29,11 +29,10 @@ Successivamente andiamo a dividere il dataset in due varibili:
 `y = house[:, 1]`
 
 
+Successivamente andiamo a aggiungere un colonna di soli 1, per definire un valore da associare a bias:
+`x = np.c_[np.ones(x.shape[0]), x ]`
 
 
 
 
-
-
-Il prossimo step è quello di aggiungere un colonna, che contiene in tutte le righe il valore 1, per associare un valore a bias
 
