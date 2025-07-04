@@ -10,4 +10,6 @@ class LinearRegression:
         self.numeroFeature = numeroFeature
 
         self.lmd_ = np.full(numeroFeature, lmd)
-        lmd_[0] = 0
+        self.lmd_[0]=0
+
+        
