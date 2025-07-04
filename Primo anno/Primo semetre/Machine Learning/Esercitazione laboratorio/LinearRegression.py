@@ -1,3 +1,5 @@
+from contextlib import nullcontext
+
 import numpy as np
 
 
@@ -14,5 +16,6 @@ class LinearRegression:
         self.lmd_[0]=0
 
 
+    def fbgd_fit(self):
+        pass
 
-        
