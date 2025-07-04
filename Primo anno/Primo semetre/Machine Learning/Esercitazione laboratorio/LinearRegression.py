@@ -11,14 +11,21 @@ class LinearRegression:
         self.numeroIterate = numeroIterate
         self.numeroFeature = numeroFeature
 
-        #Questa istruzione mi creare un vettore numpy di numeroFeature elementi tutti con il valore lmd
+        #Queste istruzione mi imposta il seed per tutte le operazione casuali
+        self.seed = seed
+        np.ramdom.seed(self.seed)
+
+        #Questa istruzione mi definice il vettore dei pesi
+        self.theta=np.rando.rand()
+
+        #Queste istruzione mi creare un vettore numpy di numeroFeature elementi tutti con il valore lmd
         self.lmd_ = np.full(numeroFeature, lmd)
         self.lmd_[0]=0
 
-        self.seed=seed
-        np.ra
 
 
-    def fbgd_fit(self):
-        pass
+
+    def fbgd_fit(self, X_training, Y_training):
+
+
 
