@@ -40,6 +40,7 @@ Infine andiamo a sfruttare una classe definita da noi precedentemente (vedremo d
 
 
 
+
 ## DEFINIZIONE DELLA CLASSE LINEARE REGRESSION
 Per la definizione della nostra classe come prima cosa andiamo ad importare le libreria che ci saranno utili:
 `import numpy as np`
@@ -68,4 +69,7 @@ Andiamo a definire le variabili che compongono questo oggetto:
 `self.lmd_ = np.full(n_features, lmd)`
 `self.lmd_ = lmd_[0]=0`
 
-_NOTA_: Nelle due ultime righe andiamo a definire una nuova variabile "lmd_"
+==_NOTA_: Nelle due ultime righe andiamo a definire una nuova variabile "lmd_"
+
+
+Con queste righe di codice appena mostrate termi
