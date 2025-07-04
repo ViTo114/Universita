@@ -53,4 +53,6 @@ All'interno di questa classe (quindi andando a capo e scrivendo con un tab verso
 `def __init__(elf, learning_rate=1e-2, n_steps=200, n_features=1, lmd=0.01, seed=123):
 
 
-Andiamo a 
+Andiamo a definire le variabili che compongono questo oggetto:
+`self.seed = seed
+`
