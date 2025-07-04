@@ -78,12 +78,14 @@ Con queste righe di codice appena mostrate terminiamo la definizione del costrut
 ==_NOTA_: Questa funziona definisce l'addestramento del modello basato dul full batch gradiente descent==
 
 
-In questa nuova funzione andiamo a definire due nove variabili:
+In questa nuova funzione andiamo a definire tre nove variabili:
 `#Memorizza il valore della funzione di costo in ogni iterata`
 `cost_history = np.zeros(self.n_steps)  
 
 `#Memorizza il valore dei paramenti ad ogni iterata`
-`theta_history= np.zeros((self.n_steps, self.theta.shape[0]))  #
+`theta_history= np.zeros((self.n_steps, self.theta.shape[0]))
+
+`#`
 
 
 Successivamente andiamo a definire il ciclo for che rappresenta l'algoritmo di discesa del gradiente:
