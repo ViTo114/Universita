@@ -64,5 +64,6 @@ Andiamo a definire le variabili che compongono questo oggetto:
 `self.theta = np.random.rand(n_features)`
 `self.lmd = lmd`
 
-
-`self.lmd_ = np.full(n_features, lmd)  #`
+`#Creaiamo un vettore di n_feature, dove ogni campo ha il valore lmd`
+`self.lmd_ = np.full(n_features, lmd)`
+`self.lmd = lmd_[0]=0`
