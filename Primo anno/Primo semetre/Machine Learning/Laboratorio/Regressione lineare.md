@@ -52,6 +52,8 @@ Successivamente iniziamo a definire la classe con la seguente sintassi:
 All'interno di questa classe (quindi andando a capo e scrivendo con un tab verso destra) andiamo a definire il costruttore del nostro oggetto (in questo caso della funzione lineare):
 `def __init__(elf, learning_rate=1e-2, n_steps=200, n_features=1, lmd=0.01, seed=123):
 
+==_NOTA_: il parametro _lmd_ indica il valore del parametro di regolarizzazione usato nella tecnica della regulaizzation==
+
 
 Andiamo a definire le variabili che compongono questo oggetto:
 `self.seed = seed
@@ -60,5 +62,5 @@ Andiamo a definire le variabili che compongono questo oggetto:
 `self.learning_rate = learning_rate`
 `self.n_steps = n_steps`
 `self.theta = np.random.rand(n_features)`
-``
+`self.lmd = lmd`
 
