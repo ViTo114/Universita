@@ -49,20 +49,7 @@ class LinearRegression:
 
 
 
-    def fbgd_reg_fit(self, X_train, Y_train):
-        thetaHistory = np.zeros(self.numeroIterate)
-        costFunctionHistory = np.zeros(self.numeroIterate)
 
-        m = len(X_train)
-
-        for epoca in range(0, self.numeroIterate):
-            predizioni = np.dot(X_train, self.theta)
-
-            errori = Y_train - predizioni
-
-            gradiente = np.dot(X.T, errori)
-
-            gradiente_reg = (self.lmd/m) * 
 
 
 
