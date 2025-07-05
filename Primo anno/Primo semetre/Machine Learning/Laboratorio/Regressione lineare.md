@@ -99,6 +99,7 @@ Successivamente andiamo a definire il ciclo for che rappresenta l'algoritmo di d
 
 
 
+
 ### DEFINIZIONE DELLE FUNZIONE UTILE PER FARE LA PREDIZIONE
 
 Per fare le predizione andiamo semplicemente a definire questa funzione:
