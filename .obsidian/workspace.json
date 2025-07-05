@@ -166,8 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,14 +179,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a91c3eae3c833462",
+  "active": "82c8ad506d9500ed",
   "lastOpenFiles": [
-    "Pasted image 20250704164507.png",
+    "Primo anno/Primo semetre/Machine Learning/Esercitazione laboratorio/LinearRegression.py~",
+    "Pasted image 20250705111715.png",
     "Primo anno/Primo semetre/Machine Learning/Laboratorio/Regressione lineare.md",
+    "Pasted image 20250705113132.png",
+    "Pasted image 20250705112300.png",
+    "Pasted image 20250705110619.png",
+    "Primo anno/Primo semetre/Machine Learning/Laboratorio/Untitled.md",
+    "Pasted image 20250704164507.png",
     "Pasted image 20250704164310.png",
     "Pasted image 20250704163716.png",
     "Pasted image 20250704163013.png",
-    "Primo anno/Primo semetre/Machine Learning/Esercitazione laboratorio/LinearRegression.py~",
     "Primo anno/Primo semetre/Machine Learning/Esercitazione laboratorio/main.py~",
     "Primo anno/Primo semetre/Machine Learning/Esercitazione laboratorio/LinearRegression.py",
     "Primo anno/Primo semetre/Machine Learning/Esercitazione laboratorio/main.py",
