@@ -1,3 +1,5 @@
 {
-  "showViewHeader": false
+  "showViewHeader": false,
+  "cssTheme": "Minimal",
+  "baseFontSize": 16
 }

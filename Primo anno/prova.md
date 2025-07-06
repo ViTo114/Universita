@@ -1,2 +1,0 @@
-sdjkdjasjaladalj
-aggiornamento della chiave

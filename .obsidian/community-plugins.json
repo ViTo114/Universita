@@ -1,4 +1,7 @@
 [
   "obsidian-git",
-  "image-inline"
+  "image-inline",
+  "obsidian-minimal-settings",
+  "obsidian-style-settings",
+  "obsidian-importer"
 ]
