@@ -1,91 +1,81 @@
+from xml.etree.ElementPath import prepare_descendant
+
 import numpy as np
 
-
-class LinearRegression:
-
-    def __init__(self, learningRate, numeroIterate, numeroFeature, seed):
+class RegressioneLineare:
+    def __init__(self, numeroIterate, numeroVariabili, seed, learningRate):
+        self.numeroItearte = numeroIterate
+        self.numeroVariabili = numeroVariabili
         self.learningRate = learningRate
-        self.numeroIterate = numeroIterate
-        self.numeroFeature = numeroFeature
+
         self.seed = seed
+        np.random.seed(seed)
 
-        np.random.rand(self.seed)
-
-        self.theta = np.random(self.numeroFeature)
+        self.theta = np.random.rand(self.numeroFeature)
 
 
-    def fit_fullBatch(self, X, Y):
+    def fit_bgd(self, X, Y):
         m = X.shape[0]
 
-        thetaHistory = np.zeros(self.numeroIterate, self.theta.shape[0])
-        costFunctionHistory = np.zeros(self.numeroIterate)
+        thetaHistory = np.zerso((self.numeroItearte, self.numeroVariabili))
+        costFunctionHistory = np.zerso(self.numeroItearte)
 
-        for epoca in range(0, self.numeroIterate):
-
+        for epoca in range(0, self.numeroItearte):
             predizioni = np.dot(X, self.theta)
 
-            errori = Y - predizioni
+            errori = predizioni - Y
 
-            gradiente = np.dot(X.T, errori)
-
-            self.theta = self.theta - self.learningRate * (1/m) * gradiente
+            self.theta = self.theta - self.learningRate * (1/m) * np.dot(X.T, errori)
 
             thetaHistory[epoca] = self.theta
             costFunctionHistory[epoca] = (1/(2*m)) * np.dot(errori.T, errori)
 
 
-    def fit_miniBatch(self, X, Y, batchSize):
+    def fit_mbgd(self, X, Y, batchSize):
         m = X.shape[0]
 
-        thetaHistory = np.zeros(self.numeroIterate, self.theta.shape[0])
+        thetaHistory = np.zeros((self.numeroItearte, self.numeroVariabili))
         costFunctionHistory = np.zeros(self.numeroIterate)
 
-        for epoca in range(0, self.numeroIterate):
-            for indice in range(0, m, batchSize):
-
+        for epoca in range(0, self.numeroItearte):
+            for indice in range(0,m, batchSize):
                 xRidotto = X[indice:indice+batchSize, :]
                 yRidotto = Y[indice:indice+batchSize]
 
-                predizioni = np.dot(X, self.theta)
+                predizioni = np.dot(xRidotto, self.theta)
+                errori = predizioni - yRidotto
 
-                errori = yRidotto - predizioni
-
-                gradiente = np.dot(xRidotto.T, errori)
-
-                self.theta = self.theta - self.learningRate * (1/m) * gradiente
+                self.theta = self.theta - self.learningRate * (1/batchSize) * np.dot(X.T, errori)
 
 
-            thetaHistory[epoca] = self.theta
-            costFunctionHistory[epoca] = (1/(2*m)) * np.dot(errori.T, errori.T)
+                predizioniComplete = np.dot(X, self.theta)
+                erroriCompleti = predizioniComplete - Y
+
+                thetaHistory[epoca] = self.theta
+                costFunctionHistory[epoca] = (1/(2*m)) * np.dot(erroriCompleti.T, erroriCompleti)
 
 
 
-    def fit_sgd(self, X, Y):
+    def fit_sgd(self,X,Y):
         m = X.shape[0]
 
-        thetaHistory = np.zerso(self.numeroIterate, self.theta.shape[0])
-        costFunctionHistory = np.zeros(self.numeroIterate)
+        thetaHistory = np.zeros((self.numeroItearte, self.numeroVariabili))
+        costFunctionHistory = np.zeros(self.numeroItearte)
 
-        for epoca in range(0, self.numeroIterate):
-
-            indice = np.random.rand(m)
+        for i in range(0, self.numeroItearte):
+            indice = np.random.randint(m)
 
             x = X[indice]
             y = Y[indice]
 
             predizione = np.dot(x, self.theta)
+            errore = predizione - y
 
-            errore = y - predizione
+            self.theta = self.theta - self.learningRate * np.dot(x.T, errore)
 
-            gradiente = np.dot(X.T, errore)
-
-            self.theta = self.theta - self.learningRate * gradiente
+            predizioniComplete = np.dot(X, self.theta)
+            erroriCompleti = predizioniComplete - Y
 
             thetaHistory[epoca] = self.theta
-            costFunctionHistory = (1/2) * np.dot(errore.T, errore)
+            costFunctionHistory[epoca] = (1/(2*m)) * np.dot(erroriCompleti.T, erroriCompleti)
 
-
-
-    def fit_normalEquation(self, X, Y):
-
-        self.theta = np.dot(np.dot(np.linalg.inv(np.dot(X.T, X)), X.T), Y)

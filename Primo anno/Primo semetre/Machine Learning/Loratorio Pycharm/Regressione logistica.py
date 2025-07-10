@@ -1,47 +1,42 @@
 import numpy as np
+from sklearn.linear_model import LogisticRegression
 
-class LogisticRegression:
-    def __init__(self, learningRate, numeroIterate, numeroFeature, seed):
-        self.learningRate = learningRate
+
+
+class RegressoioneLogistica:
+    def __init__(self, numeroIterate, numeroVariabili, seed, learningRate):
         self.numeroIterate = numeroIterate
-        self.numeroFeature = numeroFeature
+        self.numeroVariabili = numeroVariabili
+        self.learningRate = learningRate
+
         self.seed = seed
+        np.random.seed(seed)
 
-        #Impostazione del seed casuale
-        np.random.seed(self.seed)
-
-        #Definizone del vettore dei pesi
-        self.theta = np.random.rand(self.numeroFeature)
+        self.theta = np.random.rand(self.numeroVariabili)
 
 
     @staticmethod
-    def sigmoid (z):
+    def sigmoid(z):
         return 1 / (1 + np.exp(-z))
 
-
-    def fullBatch_fit(self, X, Y):
+    def fit_fbgd(self, X, Y):
         m = X.shape[0]
 
-        thetaHistory = np.zeros((self.numeroIterate, self.theta.shape[0]))
-        costFunctionHisoty = np.zeros(self.numeroIterate)
+        thetaHistory = np.zeros((self.numeroIterate, self.numeroVariabili))
+        costFunctionHistory = np.zeros(self.numeroIterate)
 
         for epoca in range(0, self.numeroIterate):
             z = np.dot(X, self.theta)
-
             predizioni = self.sigmoid(z)
 
-            errori = predizioni - Y
+            errori = predizioni - y
 
-            self.theta = self.theta - self.learningRate * 1/m * np.dot(X.T, errori)
+            self.theta = self.theta - self.learningRate * (1/m) * np.dot(X.T, errori)
 
-            thetaHistory[epoca] = thetaHistory
-            costFunctionHisoty[epoca] = -(1/m) * (np.dot(Y, np.log(predizioni)) + np.dot(1-Y, np.log(1 - predizioni)))
+            thetaHistory[epoca] = self.theta
+            costFunctionHistory[epoca] = (1/(2*m)) * np.dot(errori.T, errori)
 
 
 
-    def predizione(self, X, threshold):
-        z = np.dto(X, self.theta)
-
-        predizione = self.sigmoid(z)
-
-        return predizione > threshold
+modello = LogisticRegression(random_state=42)
+modello.fit(X, Y)
