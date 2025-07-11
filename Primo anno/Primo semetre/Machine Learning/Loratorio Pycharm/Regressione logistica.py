@@ -1,42 +1,33 @@
 import numpy as np
-from sklearn.linear_model import LogisticRegression
 
-
-
-class RegressoioneLogistica:
-    def __init__(self, numeroIterate, numeroVariabili, seed, learningRate):
+class RegressioneLogistica:
+    def __init__(self, numeroIterate, numeroFeature, seed, learningRate):
         self.numeroIterate = numeroIterate
-        self.numeroVariabili = numeroVariabili
+        self.numeroFeature = numeroFeature
         self.learningRate = learningRate
 
-        self.seed = seed
         np.random.seed(seed)
-
-        self.theta = np.random.rand(self.numeroVariabili)
+        self.theta = np.random.rand(numeroFeature)
 
 
     @staticmethod
     def sigmoid(z):
         return 1 / (1 + np.exp(-z))
 
-    def fit_fbgd(self, X, Y):
+
+    def fit_fullBatch(self, X, y):
         m = X.shape[0]
 
-        thetaHistory = np.zeros((self.numeroIterate, self.numeroVariabili))
+        thetaHistory = np.zeros((self.numeroIterate, self.theta.shape[0]))
         costFunctionHistory = np.zeros(self.numeroIterate)
 
         for epoca in range(0, self.numeroIterate):
             z = np.dot(X, self.theta)
-            predizioni = self.sigmoid(z)
+            predizoni = self.sigmoid(z)
 
-            errori = predizioni - y
+            errori = predizoni - y
 
-            self.theta = self.theta - self.learningRate * (1/m) * np.dot(X.T, errori)
+            self.theta = self.theta - self.learningRate / m * np.dot(X.T, errori)
 
             thetaHistory[epoca] = self.theta
-            costFunctionHistory[epoca] = (1/(2*m)) * np.dot(errori.T, errori)
-
-
-
-modello = LogisticRegression(random_state=42)
-modello.fit(X, Y)
+            costFunctionHistory[epoca] - (1/m) * (np.dot(y, np.log(predizoni)) + np.dot((1 -y), np.log(1-predizoni)))

@@ -1,0 +1,12 @@
+{
+  "convertOnPaste": true,
+  "convertOnDrop": true,
+  "autoEscapeLink": true,
+  "enableResizing": true,
+  "resizeStrategy": "smaller",
+  "smallerThreshold": 1000,
+  "largerThreshold": 1000,
+  "resizePercentage": 80,
+  "backupOriginalImage": true,
+  "resizeSmallerFiles": false
+}

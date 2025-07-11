@@ -1,41 +1,42 @@
-from sklearn.base import BaseEstimator, TransformerMixin
+from sklearn.base import TransformerMixin, BaseEstimator
 import numpy as np
 from sklearn.impute import SimpleImputer
 
-class OutliersRemover(BaseEstimator, TransformerMixin):
-    def __init__(self, paramentro):
-        self.upperBound = []
-        self.lowerBound = []
+class OulierRemover(TransformerMixin, BaseEstimator):
+    def __init__(self, parametro):
+        self.parametro = parametro
 
-        self.parametro = paramentro
+        self.limiteSuperiore = []
+        self.limiteInferiore = []
 
 
-    def boundaryDetecto(self, X):
+    def identificazioneLimiti(self, X):
         q1 = np.percentile(X, 25)
-        q3 = np.percentile(X, 75)
+        q3 = np.percentile((x, 75))
 
         riq = q3 - q1
 
-        self.upperBound.appen(q3 + riq*self.parametro)
-        self.lowerBound.appen(q1 - riq*self.paramentro)
+        self.limiteInferiore.append(q1 - self.parametro*riq)
+        self.limiteSuperiore.append(q3 + self.parametro*riq)
 
 
     def fit(self, X, y=None):
-        np.apply_along_axis(self.outliersDetecto, axis=1, arr=X)
+        np.apply_along_axis(self.identificazioneLimiti, axis=1, arr=X)
 
 
-    def trasform(self, X, y=None):
-        for variabile in range(X.shape[1]):
-
+    def transform(self, X, y=None):
+        for variabile in X.shape[1]:
             x = X[:, variabile]
 
-            upperMask = x > self.upperBound
-            lowerMask = x < self.lowerBound
+            upperMask = x > self.limiteSuperiore[variabile]
+            lowerMask = x < self.limiteInferiore[variabile]
 
             x[upperMask | lowerMask] = np.nan
 
             X[:, variabile] = x
 
-        imputer = SimpleImputer(strategy="mean")
 
-        X  = imputer.fit_transform(X)
+        imputer = SimpleImputer(strategy="mean")
+        X = imputer.fit_transform(X)
+
+        return X

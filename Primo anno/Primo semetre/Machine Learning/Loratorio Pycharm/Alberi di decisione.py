@@ -1,20 +1,24 @@
 from sklearn.tree import DecisionTreeClassifier
+
+modello1 = DecisionTreeClassifier()
+modello1.fit(Xtrain, Ytrain)
+modello1.predict(XTest)
+
+
+#Voglio usare la gridsearch
 from sklearn.model_selection import GridSearchCV
 
-modello = DecisionTreeClassifier(criterion="entropy", max_depth=5, min_samples_leaf=7, random_state=42)
-modello.fit(X,y)
+modello2 = DecisionTreeClassifier(random_state=123)
 
-grid ={
-        "criterion" : "entropy",
-        "max_depht" : [1, 2, 3, 4],
-        "min_sample_leaf" : [1, 2, 3],
+grid = {
+        "param1" : "stocazzo",
+        "param2" : "frocio",
+        "param3" : "zocndmemt"
 }
 
-modello = DecisionTreeClassifier(random_state= 42)
-ricercaGrid = GridSearchCV(estimator=modello, param_grid=grid, cv=5 )
+gridSearch = GridSearchCV(modello2, grid, scoring="accuracy" , cv=5)
 
+gridSearch.fit(Xtrain, Ytest)
 
-ricercaGrid.fit(X,Y)
-
-ricercaGrid.best_params_
-ricercaGrid.best_estimator_
+miglioriParamentri = gridSearch.best_params_
+migliorModello = gridSearch.best_estimator_
