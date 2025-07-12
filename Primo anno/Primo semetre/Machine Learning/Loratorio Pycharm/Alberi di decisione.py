@@ -1,24 +1,22 @@
 from sklearn.tree import DecisionTreeClassifier
-
-modello1 = DecisionTreeClassifier()
-modello1.fit(Xtrain, Ytrain)
-modello1.predict(XTest)
-
-
-#Voglio usare la gridsearch
 from sklearn.model_selection import GridSearchCV
+from sklearn.ensemble import RandomForestClassifier
 
-modello2 = DecisionTreeClassifier(random_state=123)
+modello = DecisionTreeClassifier()
+modello.fit(Xtrain)
+preidizione = modello.predict(X)
 
-grid = {
-        "param1" : "stocazzo",
-        "param2" : "frocio",
-        "param3" : "zocndmemt"
-}
 
-gridSearch = GridSearchCV(modello2, grid, scoring="accuracy" , cv=5)
+#Se io volessi usare una grid dovrei usare
+grid ={}
+modello2 = DecisionTreeClassifier()
+gridSearcher = GridSearchCV(modello2, grid, cv=5)
 
-gridSearch.fit(Xtrain, Ytest)
+bestModel = gridSearcher.best_estimator_
+bestParameter = gridSearcher.best_params_
 
-miglioriParamentri = gridSearch.best_params_
-migliorModello = gridSearch.best_estimator_
+
+#Se io volessi realizzare una randomForest
+modello3 = RandomForestClassifier()
+modello3.fit(Xtrain)
+preidizione3 = modello3.predict(Xtest)

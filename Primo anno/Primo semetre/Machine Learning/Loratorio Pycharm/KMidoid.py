@@ -1,131 +1,105 @@
 from sklearn.metrics.pairwise import euclidean_distances
 import numpy as np
-from  sklearn.cluster import KMeans
+from sklearn.cluster import KMeans
 
-class Kmidoi:
-    def __init__(self, numeroCluster, randomState, distanza=euclidean_distances):
+
+class Kmidoid:
+    def __init__(self, numeroCluster, randomState, distanza = euclidean_distances):
         self.numeroCluster = numeroCluster
-        self.distanza = distanza
         self.random = np.random.RandomState(randomState)
+        self.distanza = distanza
 
-        self.indici = []
+        self.indici= []
         self.midoid = []
 
-
-
-    def compute_cost(self, X, indici):
-        y_pred = np.argmin(self.distanza(X, X[indici, :]), axis=1)
-        return np.sum([np.sum(self.distanza(X[i], X[[indici[i]], :])) for i in set(y_pred)]), y_pred
-
+    def compute_cost(self,X, indici):
+        yPred = np.argmin(self.distanza(X, X[indici, :]), axis=1)
+        return np.sum([np.sum(self.distanza(X[yPred==i], X[[indici[i]], :])), for i in set(yPred)]), y_pred
 
     def fit(self, X):
-        randomInt = self.random.randint
+        randomInt = self.random.randint()
 
-        self.indici = X[randomInt(X.shape[0])]
+        self.indici = [randomInt(X.shape[0])]
 
-        for k in range(0, self.numeroCentroidi):
-            possibileMidoid = randomInt(X.shape[0])
+        for k in range(0, self.numeroCluster -1):
+            possibiliMidoid = randomInt(X.shape[0])
 
-            while possibileMidoid in self.indici:
-                possibileMidoid = randomInt(X.shape[0])
+            while possibiliMidoid in self.indici:
+                possibiliMidoid = randomInt(X.shape[0])
 
             self.indici.append(possibileMidoid)
 
+        self.midoid = X[self.indici]
 
-        self.midoid = X[self.indici, :]
-
-        y_pred = np.argmin(self.distanza(X, self.midoid), axis=1)
-
-        cost, _ = self.compute_cost(X, self.indici)
+        cost, _ = compute_cost(X, self.indici)
+        yPred = np.argmin(self.distanza(X, self.midoid), axis=1)
 
         primaVolta = True
 
         newCost = cost
-        newYpred = y_pred.copy()
+        newYpred = yPred.copy()
         newIndici = self.indici[:]
 
         while (newCost < cost) | primaVolta:
             primaVolta = False
 
             cost = newCost
-            y_pred = newYpred.copy()
+            yPred = newYpred.copy()
             self.indici = newIndici[:]
 
             for k in range(0, self.numeroCluster):
                 for r in [i for i, x in enumerate(newYpred==k) if x]:
                     if r not in self.indici:
-                        tempIndici = self.indici[:]
-                        tempIndici[k] = r
-                        tempCost, tempYpred = self.compute_cost(X, tempIndici)
+                        tempInidci = self.indici[:]
+                        tempInidci[k] = r
+                        tempCost, tempCost = compute_cost(X, tempInidci)
 
-                        if tempCost < newCost:
+                        if tempCost < newYpred:
                             newCost = tempCost
                             newYpred = tempYpred.copy()
-                            newIndici = tempIndici[:]
-
-        self.midoid = X[self.indici]
+                            newIndici = tempInidci[:]
 
 
-
-    def predizioni(self, X):
-        return np.argmin(self.distanza(X, self.midoid), axis=1)
+        self.midoid = X[self.indici, :]
 
 
-
-
-########################################################################################################################
-
-#DEFINIZIIONE DEL METODO DEL GOMITO
-
-
+# Identificazione del numero di cluster con il metodo del gomito
 
 wcss = []
 
-rangeDiCluster = range(1, 11)
+rangeCluster = range(1, 12)
 
-for numeroCluster in rangeDiCluster:
-    modello = Kmidoi(numeroCluster=numeroCluster, randomState=42)
-
-    modello.fit(Xtrain)
-
-    yPred = modello.predizioni(Xtest)
-
-    for k in numeroCluster:
-        wcss = 0
-
-        clusterPoint = X[y_pred==k]
-
-        if clusterPoint.size == 0:
-            continue
-
-        else:
-            distanza = np.sum((clusterPoint - modello.midoid[k])**2)
-            wcss = wcss + distanza
-
-    wcss.appen(wcss)
-#######################################################################################################################
-#Proviamo a definire il metodo del gomito con la libreria di sklearn
-
-wcss = []
-
-rangeCluster = range(0, 11)
-
-for numeroCluster in rangeCluster:
-    modello2 = KMeans(n_clusters=numeroCluster, random_state=42)
-    modello2.fit(X_train)
-    y_pred = modello2.predict(X_test)
-
-    for k in range(0, numeroCluster):
-        wcss = 0
-
-        distanza = modello2.inertia_
-
-        wcss = wcss + distanza
-
-    wcss.append(wcss)
+for cluster in rangeCluster:
+    modello = Kmidoid()
+    modello.fit()
+    y_pred = modello.predict(dataset)
 
 
+    wcss_locale = 0
+    for k in range(0, cluster):
+        clusterPoint = dataset[y_pred==k]
+
+        distanza = np.sum((clusterPoint - modello.midoid[k])**2)
+
+        wcss_locale = wcss_locale + distanza
+
+    wcss.append(wcss_locale)
 
 
+# Se io volessi usaer le libreiria
 
+wcss2 = []
 
+rangeCluster = range(1,11)
+
+for cluster in rangeCluster:
+    modello2 = KMeans()
+    KMeans.fit(dataset)
+    yPred = modello2.predict(dataset)
+
+    wcss_locale = 0
+
+    for k in range(0, cluster):
+        wcss_locale = wcss_locale + modello2.inertia_
+
+    wcss2.append(wcss_locale)

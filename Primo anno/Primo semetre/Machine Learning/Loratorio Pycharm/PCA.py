@@ -1,18 +1,13 @@
-import numpy as np
 from sklearn.decomposition import PCA
+import numpy as np
 
+pca = PCA(n_components="numeroOriginali", random_state=42)
 
-modello = PCA(X.shape[1], random_state=42)
+pca.fit_transform(Xtrain)
 
-NewXtrain = modello.fit_transform(Xtrain)
+varianza = np.var(Xtrain, axis=0)
 
+varianzaRatio = varianza /np.sum(varianza)
 
-varianza = np.var(NewXtrain, axis=1)
-varianzaRatio = varianza / np.sum(varianza)
-
-varianzaCumulativa = np.cumsum(varianzaRatio)
-
-for i in len(varianzaCumulativa):
-    if varianzaCumulativa > minimo and minimo==0:
-        numeroComponeti = varianzaCumulativa[i]
+varainzaCumulativa = np.cumsum(varianzaRatio)
 

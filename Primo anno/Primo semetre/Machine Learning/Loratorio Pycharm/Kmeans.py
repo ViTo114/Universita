@@ -1,47 +1,44 @@
-from sklearn.metrics.pairwise import euclidean_distances
 import numpy as np
+from sklearn.metrics.pairwise import euclidean_distances
 
 class Kmeans:
-    def __init__(self, numeroCluster, randomState, distanza=euclidean_distances):
-        self.numeroCluster = numeroCluster
-        self.distanza = distanza
+    def __init__(self, numeroCluser, randomState, distance=euclidean_distances):
+        self.numeroCluster = numeroCluser
         self.random = np.random.RandomState(randomState)
+        self.distance = distance
 
         self.centroidi = []
 
 
     def fit(self, X):
-        randomInt = self.random.randint
+        radomInt = self.random.randint
 
-        indici = X[randomInt(X.shape[0])]
+        indici = [radomInt(X.shape[0])]
 
-        for k in range(0, self.numeroCluster -1):
-            possibileCentroide = randomInt(X.shape[0])
+        for k in range(0, self.numeroCluster-1):
+            possibileCentroide = radomInt(X.shape[0])
 
             while possibileCentroide in indici:
-                possibileCentroide = randomInt(X.shape[0])
+                possibileCentroide = radomInt(X.shape[0])
 
-        indici.append(possibileCentroide)
+            indici.append(possibileCentroide)
 
         self.centroidi = X[indici, :]
 
-        condizione = True
+        condizione= True
 
         while condizione:
             vecchiCentroidi = self.centroidi.copy()
 
-            y_pred = np.argmin(self.distanza(X, self.cetroidi), axis=1)
+            yPred = np.argmin(self.distanza(X, self.centroidi),axis=1)
 
-            for k in set(y_pred):
-                self.centroidi[k] = np.mean(X[y_pred==k], axis=0)
+            for k in set(yPred):
+                self.centroidi[k] = np.mean(X[yPred==k], axis=0)
 
             if vecchiCentroidi == self.centroidi:
                 condizione = False
 
 
-    def predizioni(self, X):
-        return np.argmin(self.distan(X,self.centroidi))
-
-
-
+    def preidizione(self, X):
+        return np.argmin(self.distanza(X, self.indici), axis=1)
 
