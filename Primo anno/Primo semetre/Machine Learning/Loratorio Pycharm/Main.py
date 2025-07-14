@@ -2,26 +2,35 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
-#Caricamento dataset
-dataset = pd.read_csv()
+dataset = pd.read_csv("percorso file")
 
-#Mescolamento delle istanze
-dataset = dataset.sample(frac=-1, random_state=42).reset_index(drop=True)
+dataset = dataset.sample(frac=1, random_state=42).reset_index(drop=True)
 
-#divisione delle feature
 x = dataset.iloc[:, :-1]
-y = dataset.iloc[:, -1]
+y = dataset[:, -1]
+
+indiceSplit = round(len(x)*0.8)
+xTrain = x[:indiceSplit, :]
+xTest = x[indiceSplit, :]
+yTrain = y[:indiceSplit]
+yTest = y[:indiceSplit]
+
+xTrain, xTest, yTrain, yTest = train_test_split(x,y, random_state=42, test_size=0.2)
 
 
-#divionse in training e test
-xTrain, xTest, yTrain, yTest = train_test_split(dataset, test_size=0.2, random_state=42)
+media = xTrain.mean(axis=0)
+deviazione = xTrain.std(axis=0)
+xTrain = (xTrain - media) / deviazione
+xTest = (xTest - media) / deviazione
 
-#normalizzaione
 scaler = StandardScaler()
-xTrain = scaler.fit_transform(Xtrain)
-xTest = scaler.transform(Xtest)
+xTrain = scaler.fit_transform(xTrain)
+xTest = scaler.transform(xTest)
 
 
-#aggiungere una colonna per il bias
 xTrain.insert(0, "bias", 1)
 xTest.insert(0, "bias", 1)
+
+
+
+
