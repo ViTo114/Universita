@@ -3,7 +3,7 @@
 # LIBRERIE DA IMPORTARE
 Non andremo a realizzare una implementazione da zero per le SVM, ma andremo a sfruttare la libreria di scikit-learn.
 
-In particolare dovremmo importare le libreria `from.skleanr.svm import SVC`
+In particolare dovremmo importare le libreria `from.sklearn.svm import SVC`
 
 
 

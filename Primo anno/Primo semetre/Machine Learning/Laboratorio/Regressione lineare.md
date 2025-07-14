@@ -97,6 +97,7 @@ Non si sa per quale motivo ma esiste una seconda versione:
 
 
 
+
 # CALCOLO DEI PESI TRAMITE NORMAL EQUATION
 Per calcolare i pesi è possibile sfruttare anche la formula della normale equation, ossia:
 $$
