@@ -1,0 +1,10 @@
+/* Rimuove completamente la barra del titolo */
+.titlebar {
+    display: none !important;
+}
+
+/* Aggiusta la posizione dell'interfaccia principale */
+.workspace-split.mod-root {
+    top: 0 !important;
+}
+

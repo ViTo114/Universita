@@ -2,5 +2,9 @@
   "showViewHeader": false,
   "cssTheme": "Minimal",
   "baseFontSize": 16,
-  "showRibbon": true
+  "showRibbon": false,
+  "enabledCssSnippets": [
+    "NienteBottoni",
+    "NienteBarraTitolo"
+  ]
 }

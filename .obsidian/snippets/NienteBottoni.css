@@ -1,0 +1,17 @@
+/* Nasconde i pulsanti della titlebar */
+.titlebar-buttonbox-container {
+    display: none !important;
+}
+
+/* Corregge lo spazio vuoto nella barra delle schede */
+.workspace-tab-header-container {
+    padding-right: 0 !important;
+}
+.workspace-tab-header-container::after {
+    content: none !important;
+}
+
+/* Opzionale: Previene effetti collaterali su altri elementi */
+.workspace-tabs.mod-top-right-space .workspace-tab-header-container {
+    padding-right: 0 !important;
+}
