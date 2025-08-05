@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Primo anno/Primo semetre/Machine Learning/Laboratorio/Regressione lineare.md",
+                "file": "Primo anno/Secondo semestre/Formal Language/LINGUAGGI FORMALI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Regressione lineare"
+              "title": "LINGUAGGI FORMALI"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "03db6c7cd23c2ce2",
@@ -183,18 +184,22 @@
   },
   "active": "4cedece20c7dd515",
   "lastOpenFiles": [
-    "Primo anno/Primo semetre/Machine Learning/Laboratorio/Reti neurali.md",
+    "Primo anno/Secondo semestre/Formal Language/INTRODUZIONE.md",
+    "Primo anno/Secondo semestre/Formal Language/LINGUAGGI FORMALI.md",
+    "Primo anno/Secondo semestre/Formal Language/PROGETTO.md",
+    "Primo anno/Primo semetre/Machine Learning/Laboratorio/Anomaly Detection.md",
+    "Primo anno/Secondo semestre/Formal Language",
     "Primo anno/Primo semetre/Machine Learning/Laboratorio/Autoencoder.md",
     "Primo anno/Primo semetre/Machine Learning/Laboratorio/Clustering.md",
     "Primo anno/Primo semetre/Machine Learning/Laboratorio/File Main.md",
-    "Primo anno/Primo semetre/Machine Learning/Laboratorio/Regressione lineare.md",
-    "Primo anno/Primo semetre/Machine Learning/Laboratorio/Anomaly Detection.md",
     "Primo anno/Primo semetre/Machine Learning/Laboratorio/PCA.md",
-    "Primo anno/Primo semetre/Machine Learning/Laboratorio/File Main 1.md",
+    "Primo anno/Primo semetre/Machine Learning/Laboratorio/Regressione lineare.md",
+    "Primo anno/Primo semetre/Machine Learning/Laboratorio/Regressione logistica.md",
+    "Primo anno/Primo semetre/Machine Learning/Laboratorio/Reti neurali.md",
     "Primo anno/Primo semetre/Machine Learning/Laboratorio/Valutazione.md",
     "Primo anno/Primo semetre/Machine Learning/Laboratorio/SVM.md",
     "Primo anno/Primo semetre/Machine Learning/Laboratorio/Alberi di decisione.md",
-    "Primo anno/Primo semetre/Machine Learning/Laboratorio/Regressione logistica.md",
+    "Primo anno/Primo semetre/Machine Learning/Laboratorio/File Main 1.md",
     "Primo anno/Primo semetre/Machine Learning/Loratorio Pycharm/Regressione lineare.py~",
     "Primo anno/Primo semetre/Machine Learning/Loratorio Pycharm/Main.py~",
     "Primo anno/Primo semetre/Machine Learning/Loratorio Pycharm/DBSCAN.py~",
@@ -204,7 +209,6 @@
     "Primo anno/Primo semetre/Machine Learning/Loratorio Pycharm/Kmeans.py~",
     "Primo anno/Primo semetre/Machine Learning/Loratorio Pycharm/Alberi di decisione.py~",
     "Primo anno/Primo semetre/Machine Learning/Loratorio Pycharm/PCA.py",
-    "Primo anno/Primo semetre/Machine Learning/Loratorio Pycharm/DBSCAN.py",
     "Untitled.md",
     "README.md",
     "Primo anno/Primo semetre/Machine Learning/Teoria/Regressione lineare.md",
