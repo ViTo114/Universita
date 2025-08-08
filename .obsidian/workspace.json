@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Primo anno/Secondo semestre/Formal Language/GLI AUTOMI.md",
+                "file": "Primo anno/Secondo semestre/Formal Language/10. LEXICAL ANALYSIS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GLI AUTOMI"
+              "title": "10. LEXICAL ANALYSIS"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "03db6c7cd23c2ce2",
@@ -184,12 +183,17 @@
   },
   "active": "4cedece20c7dd515",
   "lastOpenFiles": [
-    "Primo anno/Secondo semestre/Formal Language/GRAMMATICHE DI TIPO 2 - CONTEXT FREE.md",
-    "Primo anno/Secondo semestre/Formal Language/GLI AUTOMI.md",
-    "Primo anno/Secondo semestre/Formal Language/LINGUAGGI GRAMMATICHE ED ESPRESSIONI REGOLARI.md",
-    "Primo anno/Secondo semestre/Formal Language/LINGUAGGI FORMALI.md",
-    "Primo anno/Secondo semestre/Formal Language/BACKUS-NAUR FORM.md",
-    "Primo anno/Secondo semestre/Formal Language/INTRODUZIONE.md",
+    "Primo anno/Secondo semestre/Formal Language/09. COMPILATORI.md",
+    "Primo anno/Secondo semestre/Formal Language/08. TRADUTTORI.md",
+    "Primo anno/Secondo semestre/Formal Language/07. GLI AUTOMI.md",
+    "Primo anno/Secondo semestre/Formal Language/10. LEXICAL ANALYSIS.md",
+    "Primo anno/Secondo semestre/Formal Language/05. GRAMMATICHE DI TIPO 2 - CONTEXT FREE.md",
+    "Primo anno/Secondo semestre/Formal Language/04. ESPRESSIONI REGOLARI.md",
+    "Primo anno/Secondo semestre/Formal Language/03. LINGUAGGI GRAMMATICHE ED ESPRESSIONI REGOLARI.md",
+    "Primo anno/Secondo semestre/Formal Language/02. LINGUAGGI FORMALI.md",
+    "Primo anno/Secondo semestre/Formal Language/01. INTRODUZIONE.md",
+    "Untitled.md",
+    "Primo anno/Secondo semestre/Formal Language/06. BACKUS-NAUR FORM.md",
     "Primo anno/Secondo semestre/Formal Language/PROGETTO.md",
     "Primo anno/Primo semetre/Machine Learning/Laboratorio/Anomaly Detection.md",
     "Primo anno/Secondo semestre/Formal Language",
@@ -213,10 +217,8 @@
     "Primo anno/Primo semetre/Machine Learning/Loratorio Pycharm/Kmeans.py~",
     "Primo anno/Primo semetre/Machine Learning/Loratorio Pycharm/Alberi di decisione.py~",
     "Primo anno/Primo semetre/Machine Learning/Loratorio Pycharm/PCA.py",
-    "Untitled.md",
     "README.md",
     "Primo anno/Primo semetre/Machine Learning/Teoria/Regressione lineare.md",
-    "Notion/Foundation of machine learning.md",
     "Pasted image 20250705111715.png",
     "Pasted image 20250705113132.png",
     "Pasted image 20250705112300.png",
@@ -224,7 +226,6 @@
     "Pasted image 20250704164507.png",
     "Pasted image 20250704164310.png",
     "Pasted image 20250704163716.png",
-    "Pasted image 20250704163013.png",
-    "Primo anno/prova.md"
+    "Pasted image 20250704163013.png"
   ]
 }
