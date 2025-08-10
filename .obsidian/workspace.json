@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Primo anno/Secondo semestre/Formal Language/12. SEMANTIC ANALYSIS.md",
+                "file": "Primo anno/Secondo semestre/Formal Language/17. TABELLA DEI SIMBOLI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "12. SEMANTIC ANALYSIS"
+              "title": "17. TABELLA DEI SIMBOLI"
             }
           }
         ]
@@ -184,8 +184,11 @@
   },
   "active": "4cedece20c7dd515",
   "lastOpenFiles": [
-    "Primo anno/Secondo semestre/Formal Language/11. SYNTAX ANALYSIS.md",
+    "Primo anno/Secondo semestre/Formal Language/16. CODICE INTERMEDIO.md",
+    "Primo anno/Secondo semestre/Formal Language/17. TABELLA DEI SIMBOLI.md",
+    "Primo anno/Secondo semestre/Formal Language/13. GESTIONE ERRORI.md",
     "Primo anno/Secondo semestre/Formal Language/12. SEMANTIC ANALYSIS.md",
+    "Primo anno/Secondo semestre/Formal Language/11. SYNTAX ANALYSIS.md",
     "Primo anno/Secondo semestre/Formal Language/PROGETTO.md",
     "Primo anno/Secondo semestre/Formal Language/10. LEXICAL ANALYSIS.md",
     "Primo anno/Secondo semestre/Formal Language/09. COMPILATORI.md",
@@ -208,9 +211,6 @@
     "Primo anno/Primo semetre/Machine Learning/Laboratorio/Regressione logistica.md",
     "Primo anno/Primo semetre/Machine Learning/Laboratorio/Reti neurali.md",
     "Primo anno/Primo semetre/Machine Learning/Laboratorio/Valutazione.md",
-    "Primo anno/Primo semetre/Machine Learning/Laboratorio/SVM.md",
-    "Primo anno/Primo semetre/Machine Learning/Laboratorio/Alberi di decisione.md",
-    "Primo anno/Primo semetre/Machine Learning/Laboratorio/File Main 1.md",
     "Primo anno/Primo semetre/Machine Learning/Loratorio Pycharm/Regressione lineare.py~",
     "Primo anno/Primo semetre/Machine Learning/Loratorio Pycharm/Main.py~",
     "Primo anno/Primo semetre/Machine Learning/Loratorio Pycharm/DBSCAN.py~",
