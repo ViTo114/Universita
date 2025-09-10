@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f4913a3891f4031f",
+        "id": "329744a4f56bd202",
         "type": "tabs",
         "children": [
           {
-            "id": "4cedece20c7dd515",
+            "id": "58dd3c0f0763ed48",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Primo anno/Secondo semestre/Formal Language/17. TABELLA DEI SIMBOLI.md",
+                "file": "Primo anno/Primo semetre/Image Processing/2. L'occhio umano.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "17. TABELLA DEI SIMBOLI"
+              "title": "2. L'occhio umano"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 270.5,
     "collapsed": true
   },
   "right": {
@@ -172,6 +172,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -182,22 +183,26 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "4cedece20c7dd515",
+  "active": "58dd3c0f0763ed48",
   "lastOpenFiles": [
-    "Primo anno/Secondo semestre/Formal Language/16. CODICE INTERMEDIO.md",
-    "Primo anno/Secondo semestre/Formal Language/17. TABELLA DEI SIMBOLI.md",
-    "Primo anno/Secondo semestre/Formal Language/13. GESTIONE ERRORI.md",
-    "Primo anno/Secondo semestre/Formal Language/12. SEMANTIC ANALYSIS.md",
-    "Primo anno/Secondo semestre/Formal Language/11. SYNTAX ANALYSIS.md",
+    "Primo anno/Primo semetre/Image Processing/1. Introduzione.md",
+    "Primo anno/Primo semetre/Image Processing/2. L'occhio umano.md",
+    "Primo anno/Primo semetre/Image Processing",
     "Primo anno/Secondo semestre/Formal Language/PROGETTO.md",
-    "Primo anno/Secondo semestre/Formal Language/10. LEXICAL ANALYSIS.md",
-    "Primo anno/Secondo semestre/Formal Language/09. COMPILATORI.md",
-    "Primo anno/Secondo semestre/Formal Language/08. TRADUTTORI.md",
     "Primo anno/Secondo semestre/Formal Language/07. GLI AUTOMI.md",
     "Primo anno/Secondo semestre/Formal Language/05. GRAMMATICHE DI TIPO 2 - CONTEXT FREE.md",
     "Primo anno/Secondo semestre/Formal Language/04. ESPRESSIONI REGOLARI.md",
     "Primo anno/Secondo semestre/Formal Language/03. LINGUAGGI GRAMMATICHE ED ESPRESSIONI REGOLARI.md",
     "Primo anno/Secondo semestre/Formal Language/02. LINGUAGGI FORMALI.md",
+    "Primo anno/Secondo semestre/Formal Language/10. LEXICAL ANALYSIS.md",
+    "Primo anno/Secondo semestre/Formal Language/09. COMPILATORI.md",
+    "Primo anno/Secondo semestre/Formal Language/08. TRADUTTORI.md",
+    "Primo anno/Secondo semestre/Formal Language/18. GENERAZIONE DI CODICE E OTTIMIZZAZIONE.md",
+    "Primo anno/Secondo semestre/Formal Language/17. TABELLA DEI SIMBOLI.md",
+    "Primo anno/Secondo semestre/Formal Language/16. CODICE INTERMEDIO.md",
+    "Primo anno/Secondo semestre/Formal Language/12. SEMANTIC ANALYSIS.md",
+    "Primo anno/Secondo semestre/Formal Language/11. SYNTAX ANALYSIS.md",
+    "Primo anno/Secondo semestre/Formal Language/13. GESTIONE ERRORI.md",
     "Primo anno/Secondo semestre/Formal Language/01. INTRODUZIONE.md",
     "Untitled.md",
     "Primo anno/Secondo semestre/Formal Language/06. BACKUS-NAUR FORM.md",
@@ -208,9 +213,6 @@
     "Primo anno/Primo semetre/Machine Learning/Laboratorio/File Main.md",
     "Primo anno/Primo semetre/Machine Learning/Laboratorio/PCA.md",
     "Primo anno/Primo semetre/Machine Learning/Laboratorio/Regressione lineare.md",
-    "Primo anno/Primo semetre/Machine Learning/Laboratorio/Regressione logistica.md",
-    "Primo anno/Primo semetre/Machine Learning/Laboratorio/Reti neurali.md",
-    "Primo anno/Primo semetre/Machine Learning/Laboratorio/Valutazione.md",
     "Primo anno/Primo semetre/Machine Learning/Loratorio Pycharm/Regressione lineare.py~",
     "Primo anno/Primo semetre/Machine Learning/Loratorio Pycharm/Main.py~",
     "Primo anno/Primo semetre/Machine Learning/Loratorio Pycharm/DBSCAN.py~",
@@ -219,7 +221,6 @@
     "Primo anno/Primo semetre/Machine Learning/Loratorio Pycharm/KMidoid.py~",
     "Primo anno/Primo semetre/Machine Learning/Loratorio Pycharm/Kmeans.py~",
     "Primo anno/Primo semetre/Machine Learning/Loratorio Pycharm/Alberi di decisione.py~",
-    "Primo anno/Primo semetre/Machine Learning/Loratorio Pycharm/PCA.py",
     "Pasted image 20250705111715.png",
     "Pasted image 20250705113132.png",
     "Pasted image 20250705112300.png",
