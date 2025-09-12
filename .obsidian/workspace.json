@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Primo anno/Primo semetre/Image Processing/2. L'occhio umano.md",
+                "file": "Primo anno/Primo semetre/Image Processing/3. Sensori ed acquisizione.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. L'occhio umano"
+              "title": "3. Sensori ed acquisizione"
             }
           }
         ]
@@ -185,8 +185,9 @@
   },
   "active": "58dd3c0f0763ed48",
   "lastOpenFiles": [
-    "Primo anno/Primo semetre/Image Processing/1. Introduzione.md",
     "Primo anno/Primo semetre/Image Processing/2. L'occhio umano.md",
+    "Primo anno/Primo semetre/Image Processing/3. Sensori ed acquisizione.md",
+    "Primo anno/Primo semetre/Image Processing/1. Introduzione.md",
     "Primo anno/Primo semetre/Image Processing",
     "Primo anno/Secondo semestre/Formal Language/PROGETTO.md",
     "Primo anno/Secondo semestre/Formal Language/07. GLI AUTOMI.md",
@@ -212,7 +213,6 @@
     "Primo anno/Primo semetre/Machine Learning/Laboratorio/Clustering.md",
     "Primo anno/Primo semetre/Machine Learning/Laboratorio/File Main.md",
     "Primo anno/Primo semetre/Machine Learning/Laboratorio/PCA.md",
-    "Primo anno/Primo semetre/Machine Learning/Laboratorio/Regressione lineare.md",
     "Primo anno/Primo semetre/Machine Learning/Loratorio Pycharm/Regressione lineare.py~",
     "Primo anno/Primo semetre/Machine Learning/Loratorio Pycharm/Main.py~",
     "Primo anno/Primo semetre/Machine Learning/Loratorio Pycharm/DBSCAN.py~",
