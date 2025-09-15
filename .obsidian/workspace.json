@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "329744a4f56bd202",
+        "id": "5842f8137e509a3e",
         "type": "tabs",
         "children": [
           {
-            "id": "58dd3c0f0763ed48",
+            "id": "c0817afd8585e6ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Primo anno/Primo semetre/Image Processing/3. Sensori ed acquisizione.md",
+                "file": "Primo anno/Primo semetre/Image Processing/4. Rumore nei sensori CCD.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Sensori ed acquisizione"
+              "title": "4. Rumore nei sensori CCD"
             }
           }
         ]
@@ -183,10 +183,12 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "58dd3c0f0763ed48",
+  "active": "c0817afd8585e6ab",
   "lastOpenFiles": [
-    "Primo anno/Primo semetre/Image Processing/2. L'occhio umano.md",
+    "Primo anno/Primo semetre/Image Processing/4. Rumore nei sensori CCD.md",
     "Primo anno/Primo semetre/Image Processing/3. Sensori ed acquisizione.md",
+    "Pasted image 20250912174851.png",
+    "Primo anno/Primo semetre/Image Processing/2. L'occhio umano.md",
     "Primo anno/Primo semetre/Image Processing/1. Introduzione.md",
     "Primo anno/Primo semetre/Image Processing",
     "Primo anno/Secondo semestre/Formal Language/PROGETTO.md",
@@ -212,7 +214,6 @@
     "Primo anno/Primo semetre/Machine Learning/Laboratorio/Autoencoder.md",
     "Primo anno/Primo semetre/Machine Learning/Laboratorio/Clustering.md",
     "Primo anno/Primo semetre/Machine Learning/Laboratorio/File Main.md",
-    "Primo anno/Primo semetre/Machine Learning/Laboratorio/PCA.md",
     "Primo anno/Primo semetre/Machine Learning/Loratorio Pycharm/Regressione lineare.py~",
     "Primo anno/Primo semetre/Machine Learning/Loratorio Pycharm/Main.py~",
     "Primo anno/Primo semetre/Machine Learning/Loratorio Pycharm/DBSCAN.py~",
