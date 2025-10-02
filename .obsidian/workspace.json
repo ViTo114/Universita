@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Secondo anno/Primo semestre/Web inteligence/WWW e W3C.md",
+                "file": "Secondo anno/Primo semestre/Web inteligence/2. HTTP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WWW e W3C"
+              "title": "2. HTTP"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5
+    "width": 229.5,
+    "collapsed": true
   },
   "right": {
     "id": "03db6c7cd23c2ce2",
@@ -184,6 +185,8 @@
   },
   "active": "24919fe8e35b381e",
   "lastOpenFiles": [
+    "Secondo anno/Primo semestre/Web inteligence/1. WWW e W3C.md",
+    "Secondo anno/Primo semestre/Web inteligence/2. HTTP.md",
     "Secondo anno/Primo semestre/Cyber-Physical Systems/2. Blockchain and DLTs.md",
     "Primo anno/Primo semetre/Image Processing/3. Sensori ed acquisizione.md",
     "Primo anno/Primo semetre/Image Processing/2. L'occhio umano.md",
@@ -200,7 +203,6 @@
     "Untitled.md",
     "Secondo anno/Primo semestre/Big Data/2. Local Stack.md",
     "Secondo anno/Primo semestre/Big Data/1. INTRODUZIONE.md",
-    "Secondo anno/Primo semestre/Web inteligence/WWW e W3C.md",
     "Secondo anno/Primo semestre/Web inteligence",
     "Secondo anno/Primo semestre/Web Intelligence/Untitled",
     "Secondo anno/Primo semestre/Cyber-Physical Systems",
@@ -216,7 +218,6 @@
     "Primo anno/Secondo semestre/Formal Language/PROGETTO.md",
     "Primo anno/Secondo semestre/Formal Language/07. GLI AUTOMI.md",
     "Primo anno/Secondo semestre/Formal Language/05. GRAMMATICHE DI TIPO 2 - CONTEXT FREE.md",
-    "Primo anno/Secondo semestre/Formal Language/04. ESPRESSIONI REGOLARI.md",
     "Primo anno/Secondo semestre/Formal Language",
     "Primo anno/Primo semetre/Machine Learning/Loratorio Pycharm/Regressione lineare.py~",
     "Primo anno/Primo semetre/Machine Learning/Loratorio Pycharm/Main.py~",
