@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Secondo anno/Primo semestre/Web inteligence/HTML.md",
+                "file": "Secondo anno/Primo semestre/Web inteligence/4. HTML.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HTML"
+              "title": "4. HTML"
             }
           }
         ]
@@ -182,10 +182,13 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "24919fe8e35b381e",
+  "active": "82c8ad506d9500ed",
   "lastOpenFiles": [
+    "Secondo anno/Primo semestre/Web inteligence/2. HTTP.md",
+    "Secondo anno/Primo semestre/Information Retrieval & personalization/2. Evaluation.md",
+    "Secondo anno/Primo semestre/Information Retrieval & personalization/1. Introduzione.md",
+    "Secondo anno/Primo semestre/Web inteligence/4. HTML.md",
     "Secondo anno/Primo semestre/Web inteligence/3. XML.md",
-    "Secondo anno/Primo semestre/Web inteligence/HTML.md",
     "Primo anno/Primo semetre/Image Processing/10. Lenti, pixel e dimensione del sensore.md",
     "Primo anno/Primo semetre/Image Processing/8. Gamma.md",
     "Primo anno/Primo semetre/Image Processing/7. Acquisizione dell'immagine.md",
@@ -196,10 +199,8 @@
     "Primo anno/Primo semetre/Image Processing/2. L'occhio umano.md",
     "Primo anno/Primo semetre/Image Processing/1. Introduzione.md",
     "Primo anno/Primo semetre/Image Processing/9. Acuità visiva e risoluzione dei dettagli sulle stampe.md",
-    "Secondo anno/Primo semestre/Web inteligence/2. HTTP.md",
     "Secondo anno/Primo semestre/Web inteligence/1. WWW e W3C.md",
     "Secondo anno/Primo semestre/Cyber-Physical Systems/2. Blockchain and DLTs.md",
-    "Secondo anno/Primo semestre/Information Retrieval & personalization/1. Prima lezione.md",
     "Secondo anno/Primo semestre/Cyber-Physical Systems/1. Sistemi distribuiti.md",
     "Primo anno/Primo semetre/Image Processing/12. Colori.md",
     "Pasted image 20250912174851.png",
@@ -216,7 +217,6 @@
     "Secondo anno/Primo semestre/Web Intelligece.md",
     "Secondo anno/Primo semestre/Big Data",
     "Primo anno/Primo semetre/Image Processing",
-    "Primo anno/Secondo semestre/Formal Language/PROGETTO.md",
     "Primo anno/Secondo semestre/Formal Language",
     "Primo anno/Primo semetre/Machine Learning/Loratorio Pycharm/Regressione lineare.py~",
     "Primo anno/Primo semetre/Machine Learning/Loratorio Pycharm/Main.py~",
