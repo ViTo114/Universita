@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Secondo anno/Primo semestre/Information Retrieval & personalization/6. Probabilistic information retrival.md",
+                "file": "Secondo anno/Primo semestre/Information Retrieval & personalization/Neural IR and Transformers for ranking.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6. Probabilistic information retrival"
+              "title": "Neural IR and Transformers for ranking"
             }
           }
         ]
@@ -185,8 +185,9 @@
   },
   "active": "24919fe8e35b381e",
   "lastOpenFiles": [
-    "Secondo anno/Primo semestre/Information Retrieval & personalization/5. Vector space model.md",
     "Secondo anno/Primo semestre/Information Retrieval & personalization/6. Probabilistic information retrival.md",
+    "Secondo anno/Primo semestre/Information Retrieval & personalization/Neural IR and Transformers for ranking.md",
+    "Secondo anno/Primo semestre/Information Retrieval & personalization/5. Vector space model.md",
     "Secondo anno/Primo semestre/Information Retrieval & personalization/4. Dictionares + Tolerant retrival + Spelling correction.md",
     "Secondo anno/Primo semestre/Information Retrieval & personalization/3. Boolena retrieval + invert index.md",
     "Secondo anno/Primo semestre/Information Retrieval & personalization/2. Evaluation.md",
@@ -210,7 +211,6 @@
     "Primo anno/Primo semetre/Image Processing/12. Colori.md",
     "Primo anno/Primo semetre/Image Processing/8. Gamma.md",
     "Primo anno/Primo semetre/Image Processing/9. Acuità visiva e risoluzione dei dettagli sulle stampe.md",
-    "Primo anno/Primo semetre/Image Processing/10. Lenti, pixel e dimensione del sensore.md",
     "Pasted image 20250912174851.png",
     "Secondo anno/Primo semestre/Information Retrieval & personalization",
     "Secondo anno/Primo semestre/Web inteligence",
