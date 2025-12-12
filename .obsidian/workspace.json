@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "1989a6c357c14a2c",
+        "id": "6630f897a835133d",
         "type": "tabs",
         "children": [
           {
-            "id": "24919fe8e35b381e",
+            "id": "e1247fc1e7764daf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Secondo anno/Primo semestre/Information Retrieval & personalization/7. Neural IR and Transformers for ranking.md",
+                "file": "Secondo anno/Primo semestre/Information Retrieval & personalization/13. Web search e Link Analysis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7. Neural IR and Transformers for ranking"
-            }
-          },
-          {
-            "id": "85a3c9584c8334a5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Secondo anno/Primo semestre/Information Retrieval & personalization/7. Neural IR and Transformers for ranking.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "7. Neural IR and Transformers for ranking"
+              "title": "13. Web search e Link Analysis"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -198,15 +183,19 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "85a3c9584c8334a5",
+  "active": "e1247fc1e7764daf",
   "lastOpenFiles": [
+    "Secondo anno/Primo semestre/Information Retrieval & personalization/12. Neural IR 2.md",
+    "Secondo anno/Primo semestre/Information Retrieval & personalization/13. Web search e Link Analysis.md",
+    "Secondo anno/Primo semestre/Information Retrieval & personalization/8. Language Models + Text classification.md",
+    "Pasted image 20251211160342.png",
+    "Secondo anno/Primo semestre/Information Retrieval & personalization/6. Probabilistic information retrival.md",
+    "Secondo anno/Primo semestre/Information Retrieval & personalization/7. Neural IR and Transformers for ranking.md",
     "Secondo anno/Primo semestre/Information Retrieval & personalization/5. Vector space model.md",
     "Secondo anno/Primo semestre/Information Retrieval & personalization/4. Dictionares + Tolerant retrival + Spelling correction.md",
     "Secondo anno/Primo semestre/Information Retrieval & personalization/3. Boolena retrieval + invert index.md",
     "Secondo anno/Primo semestre/Information Retrieval & personalization/2. Evaluation.md",
-    "Secondo anno/Primo semestre/Information Retrieval & personalization/6. Probabilistic information retrival.md",
     "Secondo anno/Primo semestre/Information Retrieval & personalization/1. Introduzione.md",
-    "Secondo anno/Primo semestre/Information Retrieval & personalization/7. Neural IR and Transformers for ranking.md",
     "Secondo anno/Primo semestre/Web inteligence/1. WWW e W3C.md",
     "Primo anno/Secondo semestre/Formal Language/17. TABELLA DEI SIMBOLI.md",
     "Primo anno/Secondo semestre/Formal Language/16. CODICE INTERMEDIO.md",
@@ -223,9 +212,6 @@
     "Primo anno/Secondo semestre/Formal Language/04. ESPRESSIONI REGOLARI.md",
     "Primo anno/Secondo semestre/Formal Language/18. GENERAZIONE DI CODICE E OTTIMIZZAZIONE.md",
     "Primo anno/Secondo semestre/Formal Language/02. LINGUAGGI FORMALI.md",
-    "Primo anno/Secondo semestre/Formal Language/01. INTRODUZIONE.md",
-    "Primo anno/Primo semetre/Image Processing/12. Colori.md",
-    "Primo anno/Primo semetre/Image Processing/8. Gamma.md",
     "Pasted image 20250912174851.png",
     "Secondo anno/Primo semestre/Information Retrieval & personalization",
     "Secondo anno/Primo semestre/Web inteligence",
