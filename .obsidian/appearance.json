@@ -1,7 +1,7 @@
 {
   "showViewHeader": false,
   "cssTheme": "Minimal",
-  "baseFontSize": 16,
+  "baseFontSize": 20,
   "showRibbon": false,
   "enabledCssSnippets": [
     "NienteBottoni",
