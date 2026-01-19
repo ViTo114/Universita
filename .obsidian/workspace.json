@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Secondo anno/Primo semestre/Web inteligence/8. APACHE.md",
+                "file": "Secondo anno/Primo semestre/Big Data/10. Big data offline.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8. APACHE"
+              "title": "10. Big data offline"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5,
+    "width": 293.5,
     "collapsed": true
   },
   "right": {
@@ -172,46 +172,47 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Crea nuova Base": false,
       "switcher:Apri selezione rapida": false,
       "graph:Apri vista grafo": false,
       "canvas:Crea nuova lavagna": false,
       "daily-notes:Apri nota del giorno": false,
       "templates:Inserisci modello": false,
       "command-palette:Apri riquadro comandi": false,
-      "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-importer:Open Importer": false
     }
   },
   "active": "f04cb43d60203ce0",
   "lastOpenFiles": [
-    "Secondo anno/Primo semestre/Web inteligence/7. WEB BROWSER.md",
+    "Secondo anno/Primo semestre/Big Data/9. Big data architecture.md",
+    "Secondo anno/Primo semestre/Big Data/8. Big data introduction.md",
+    "Secondo anno/Primo semestre/Big Data/Localstack/6. Localstack step function.md",
+    "Secondo anno/Primo semestre/Big Data/5. Microservice orchestration.md",
+    "Secondo anno/Primo semestre/Big Data/6. Event driven architecture.md",
+    "Secondo anno/Primo semestre/Big Data/7. External api patterns.md",
+    "Secondo anno/Primo semestre/Big Data/Localstack/3. Localstack ecr ecs.md",
+    "Secondo anno/Primo semestre/Big Data/4. Microservice architecture.md",
+    "Secondo anno/Primo semestre/Big Data/3. Architecture principles.md",
+    "Secondo anno/Primo semestre/Big Data/2. Cloud introduction.md",
+    "Secondo anno/Primo semestre/Big Data/1. Introduzione.md",
+    "Secondo anno/Primo semestre/Big Data/Localstack/12. Localstack glue.md",
+    "Secondo anno/Primo semestre/Big Data/Localstack/11. Localstack microservice integration.md",
+    "Secondo anno/Primo semestre/Big Data/Localstack/1. Locastack intro.md",
+    "Secondo anno/Primo semestre/Big Data/Localstack/9. Localstack eventbridge.md",
+    "Secondo anno/Primo semestre/Big Data/Localstack/8. Localstack saga pattern.md",
+    "Secondo anno/Primo semestre/Big Data/Localstack/10. Localstack appsync.md",
+    "Secondo anno/Primo semestre/Big Data/Localstack/5. Localstack sqs sns.md",
+    "Secondo anno/Primo semestre/Big Data/Localstack/4. Localstack apigw.md",
+    "Secondo anno/Primo semestre/Big Data/Localstack/2. Localstack  ec2.md",
+    "Secondo anno/Primo semestre/Big Data/Localstack/7. Localstack cloudformation cdk.md",
+    "Secondo anno/Primo semestre/Big Data/10. Big data offline.md",
+    "Secondo anno/Primo semestre/Big Data/Localstack",
+    "Secondo anno/Primo semestre/Web inteligence/2. HTTP.md",
     "Secondo anno/Primo semestre/Web inteligence/8. APACHE.md",
     "Secondo anno/Primo semestre/Web inteligence/6. CSS.md",
     "Secondo anno/Primo semestre/Web inteligence/5. DNS.md",
-    "Secondo anno/Primo semestre/Web inteligence/4. HTML.md",
-    "Secondo anno/Primo semestre/Web inteligence/3. XML.md",
-    "Secondo anno/Primo semestre/Web inteligence/2. HTTP.md",
-    "Secondo anno/Primo semestre/Web inteligence/1. WWW e W3C.md",
-    "Secondo anno/Primo semestre/Information Retrieval & personalization/17. Sistemi di raccomandazione pt.2.md",
-    "Secondo anno/Primo semestre/Information Retrieval & personalization/16. Sistemi di raccomandazioni.md",
-    "Secondo anno/Primo semestre/Information Retrieval & personalization/1. Introduzione.md",
-    "Secondo anno/Primo semestre/Information Retrieval & personalization/7. Neural IR and Transformers for ranking.md",
-    "Secondo anno/Primo semestre/Information Retrieval & personalization/6. Probabilistic information retrival.md",
-    "Secondo anno/Primo semestre/Information Retrieval & personalization/5. Vector space model.md",
-    "Secondo anno/Primo semestre/Information Retrieval & personalization/4. Dictionares + Tolerant retrival + Spelling correction.md",
-    "Secondo anno/Primo semestre/Information Retrieval & personalization/3. Boolena retrieval + invert index.md",
-    "Secondo anno/Primo semestre/Information Retrieval & personalization/2. Evaluation.md",
-    "Secondo anno/Primo semestre/Information Retrieval & personalization/8. Language Models + Text classification.md",
-    "Secondo anno/Primo semestre/Information Retrieval & personalization/12. Neural IR 2.md",
-    "Secondo anno/Primo semestre/Information Retrieval & personalization/13. Web search e Link Analysis.md",
-    "Secondo anno/Primo semestre/Information Retrieval & personalization/14. UserInteraction + ConversationalSearch.md",
-    "Secondo anno/Primo semestre/Information Retrieval & personalization/15. Dai Language Models ai LLM e oltre.md",
     "Pasted image 20251211160342.png",
-    "Primo anno/Secondo semestre/Formal Language/17. TABELLA DEI SIMBOLI.md",
-    "Primo anno/Secondo semestre/Formal Language/16. CODICE INTERMEDIO.md",
-    "Primo anno/Secondo semestre/Formal Language/13. GESTIONE ERRORI.md",
-    "Primo anno/Secondo semestre/Formal Language/12. SEMANTIC ANALYSIS.md",
     "Pasted image 20250912174851.png",
     "Secondo anno/Primo semestre/Information Retrieval & personalization",
     "Secondo anno/Primo semestre/Web inteligence",
@@ -222,7 +223,6 @@
     "Primo anno/Secondo semestre/Formal Language",
     "Primo anno/Primo semetre/Machine Learning/Loratorio Pycharm/Regressione lineare.py~",
     "Primo anno/Primo semetre/Machine Learning/Loratorio Pycharm/Main.py~",
-    "Primo anno/Primo semetre/Machine Learning/Loratorio Pycharm/DBSCAN.py~",
     "Pasted image 20250705111715.png",
     "Pasted image 20250705113132.png",
     "Pasted image 20250705112300.png",
