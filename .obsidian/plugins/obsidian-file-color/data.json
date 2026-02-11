@@ -1,0 +1,46 @@
+{
+  "cascadeColors": true,
+  "colorBackground": false,
+  "palette": [
+    {
+      "id": "YpaQv1-6mf6L0jMxtM7JH",
+      "name": "Red",
+      "value": "#a30000"
+    },
+    {
+      "id": "3HB3OGdikKvADwr1XHvK6",
+      "name": "Blue",
+      "value": "#2880c3"
+    },
+    {
+      "id": "uxs8-gQepxJckuDBt5G_2",
+      "name": "Green",
+      "value": "#40b056"
+    },
+    {
+      "id": "fSiYBHBQoaCJLEOEKNyto",
+      "name": "Yellow",
+      "value": "#d7d954"
+    },
+    {
+      "id": "Q4CQFyOCPuUcTlUKDmLe2",
+      "name": "Purple",
+      "value": "#991ed2"
+    },
+    {
+      "id": "rF-AbpVkIY6OxgpZPZA5l",
+      "name": "Orange",
+      "value": "#e09900"
+    }
+  ],
+  "fileColors": [
+    {
+      "path": "Secondo anno/Primo semestre/Big Data",
+      "color": "fSiYBHBQoaCJLEOEKNyto"
+    },
+    {
+      "path": "Secondo anno/Primo semestre/Big Data/Localstack",
+      "color": "rF-AbpVkIY6OxgpZPZA5l"
+    }
+  ]
+}
