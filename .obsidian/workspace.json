@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Secondo anno/Primo semestre/Crittografia/09 Lezione.md",
+                "file": "Primo anno/Secondo semestre/Agent Based/04. SearchStrategies.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "09 Lezione"
+              "title": "04. SearchStrategies"
             }
           }
         ]
@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Esplora risorse"
+              "title": "Files"
             }
           },
           {
@@ -171,21 +171,27 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Apri selezione rapida": false,
-      "graph:Apri vista grafo": false,
-      "canvas:Crea nuova lavagna": false,
-      "daily-notes:Apri nota del giorno": false,
-      "templates:Inserisci modello": false,
-      "command-palette:Apri riquadro comandi": false,
-      "bases:Crea nuova Base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-importer:Open Importer": false
     }
   },
   "active": "5ed16bc13fc097c9",
   "lastOpenFiles": [
-    "Secondo anno/Primo semestre/Crittografia/03 Lezione.md",
+    "Untitled 1.md",
+    "Primo anno/Secondo semestre/Agent Based/04. SearchStrategies.md",
+    "Untitled.md",
+    "Primo anno/Secondo semestre/Agent Based/03. Search.md",
+    "Primo anno/Secondo semestre/Agent Based/02. Intelligent Agents.md",
     "Secondo anno/Primo semestre/Crittografia/09 Lezione.md",
+    "Primo anno/Secondo semestre/Agent Based",
+    "Secondo anno/Primo semestre/Crittografia/03 Lezione.md",
     "Secondo anno/Primo semestre/Crittografia/07 Lezione.md",
     "Secondo anno/Primo semestre/Crittografia/06 Lezione.md",
     "Secondo anno/Primo semestre/Crittografia/05 Lezione.md",
@@ -206,11 +212,6 @@
     "Secondo anno/Primo semestre/Big Data/Localstack/5. Localstack sqs sns.md",
     "Secondo anno/Primo semestre/Big Data/Localstack/6. Localstack step function.md",
     "Secondo anno/Primo semestre/Big Data/Localstack/7. Localstack cloudformation cdk.md",
-    "Secondo anno/Primo semestre/Big Data/Localstack/8. Localstack saga pattern.md",
-    "Secondo anno/Primo semestre/Big Data/Localstack/3. Localstack ecr ecs.md",
-    "Secondo anno/Primo semestre/Big Data/Localstack/2. Localstack  ec2.md",
-    "Secondo anno/Primo semestre/Big Data/Localstack/1. Locastack intro.md",
-    "Secondo anno/Primo semestre/Big Data/7. External api patterns.md",
     "Secondo anno/Primo semestre/Big Data/Localstack",
     "Pasted image 20251211160342.png",
     "Pasted image 20250912174851.png",
@@ -221,7 +222,6 @@
     "Secondo anno/Primo semestre/Big Data",
     "Primo anno/Primo semetre/Image Processing",
     "Primo anno/Secondo semestre/Formal Language",
-    "Primo anno/Primo semetre/Machine Learning/Loratorio Pycharm/Regressione lineare.py~",
     "Pasted image 20250705111715.png",
     "Pasted image 20250705113132.png",
     "Pasted image 20250705112300.png",
